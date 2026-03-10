@@ -1,47 +1,4 @@
 {
   "schemaVersion": 1,
-  "plugins": [
-    {
-      "id": "com.TablePro.ClickHouseDriver",
-      "name": "ClickHouse Driver",
-      "version": "1.0.0",
-      "summary": "ClickHouse OLAP database driver via HTTP interface",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://tablepro.app/databases/clickhouse",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "ClickHouse"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.0/ClickHouseDriver-arm64.zip",
-      "sha256": "4701493e0efb6487d3ecf3fa4f46e1cc962b920ca1b9cbd1d491668d9288f5f6",
-      "minAppVersion": "0.16.1",
-      "minPluginKitVersion": 1,
-      "iconName": "chart.bar.xaxis",
-      "isVerified": true
-    },
-    {
-      "id": "com.TablePro.OracleDriver",
-      "name": "Oracle Driver",
-      "version": "1.0.0",
-      "summary": "Oracle Database 12c+ driver via OracleNIO",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://tablepro.app/databases/oracle",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Oracle"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.0/OracleDriver-arm64.zip",
-      "sha256": "d1edad38898bce5cb7f6a637832768740a66f7675a78a35188ee1ab819064af2",
-      "minAppVersion": "0.16.1",
-      "minPluginKitVersion": 1,
-      "iconName": "server.rack",
-      "isVerified": true
-    }
-  ]
+  "plugins": []
 }
