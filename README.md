@@ -73,7 +73,7 @@ The app selects the binary matching the current Mac's architecture. The flat `do
 
 ## Submitting a Plugin
 
-1. Build your `.tableplugin` bundle following the [developer guide](https://github.com/datlechin/TablePro/blob/main/docs/development/plugin-system/developer-guide.md)
+1. Build your `.tableplugin` bundle following the [plugin registry docs](https://docs.tablepro.app/development/plugin-registry)
 2. Code-sign it with a valid Apple Developer certificate
 3. Build for both architectures (arm64 and x86_64) and create a `.zip` archive for each
 4. Compute the SHA-256 checksums: `shasum -a 256 YourPlugin-arm64.zip YourPlugin-x86_64.zip`
