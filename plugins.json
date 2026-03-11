@@ -49,17 +49,17 @@
         "Oracle"
       ],
       "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-arm64.zip",
-      "sha256": "51e9904d53c79802a3441363749074079282f0a89210ebbf86966004dc74875b",
+      "sha256": "e53c1fac9369b6c28fd09c6beea42c1d740df14128d1decce476c0687729bcae",
       "binaries": [
         {
           "architecture": "arm64",
           "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-arm64.zip",
-          "sha256": "51e9904d53c79802a3441363749074079282f0a89210ebbf86966004dc74875b"
+          "sha256": "e53c1fac9369b6c28fd09c6beea42c1d740df14128d1decce476c0687729bcae"
         },
         {
           "architecture": "x86_64",
           "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-x86_64.zip",
-          "sha256": "030f472d6941dd31e094fcd3d7c04f39c4245557cad7e010c08ed758697381b6"
+          "sha256": "f249fdc12017531a96f7b546d7f892a4d450d8cc057fa816ac3b8c5ad49357f4"
         }
       ],
       "minAppVersion": "0.17.0",
