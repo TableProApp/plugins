@@ -99,39 +99,6 @@
       "minPluginKitVersion": 1,
       "iconName": "bird",
       "isVerified": true
-    },
-    {
-      "id": "com.TablePro.SQLiteDriver",
-      "name": "SQLite Driver",
-      "version": "0.0.0-ci-test",
-      "summary": "SQLite embedded database driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/sqlite",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SQLite"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlite-v0.0.0-ci-test/SQLiteDriver-arm64.zip",
-      "sha256": "3e2c69ba97e6c68da6011f7e2e3fb2e2c983ba604e846e3e61cc2133aa1ba683",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlite-v0.0.0-ci-test/SQLiteDriver-arm64.zip",
-          "sha256": "3e2c69ba97e6c68da6011f7e2e3fb2e2c983ba604e846e3e61cc2133aa1ba683"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlite-v0.0.0-ci-test/SQLiteDriver-x86_64.zip",
-          "sha256": "9b39a75b518e748620bf10d0940b8f871fa62f5d352d0ebcb3eed01bf140ad9f"
-        }
-      ],
-      "minAppVersion": "0.17.0",
-      "minPluginKitVersion": 1,
-      "iconName": "internaldrive",
-      "isVerified": true
     }
   ]
 }
