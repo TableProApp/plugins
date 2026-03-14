@@ -99,6 +99,39 @@
       "minPluginKitVersion": 1,
       "iconName": "bird",
       "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.0",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.0/MongoDBDriver-arm64.zip",
+      "sha256": "3340fd63acd40af2df68049ff023d2c0035f71dc6b0e46d4999d857817a40520",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.0/MongoDBDriver-arm64.zip",
+          "sha256": "3340fd63acd40af2df68049ff023d2c0035f71dc6b0e46d4999d857817a40520"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.0/MongoDBDriver-x86_64.zip",
+          "sha256": "a05d331004f99f7134fd552c586457b776ffc2f0470a53b5faa32e3f7f3f687c"
+        }
+      ],
+      "minAppVersion": "0.18.0",
+      "minPluginKitVersion": 1,
+      "iconName": "mongodb-icon",
+      "isVerified": true
     }
   ]
 }
