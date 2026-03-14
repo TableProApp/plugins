@@ -165,6 +165,37 @@
       "minPluginKitVersion": 1,
       "iconName": "mssql-icon",
       "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MQLExportPlugin",
+      "name": "MQL Export",
+      "version": "1.0.0",
+      "summary": "Export MongoDB data as MQL statements",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.0/MQLExport-arm64.zip",
+      "sha256": "c01d52bab65c7c621e3793321d5f357b8f8e7d28961a91c4b80d936f4ce29ff6",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.0/MQLExport-arm64.zip",
+          "sha256": "c01d52bab65c7c621e3793321d5f357b8f8e7d28961a91c4b80d936f4ce29ff6"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.0/MQLExport-x86_64.zip",
+          "sha256": "7b35dfb00a31e00ca24454b2602f63e20fa2f0ee215e8c64bd8798e59d7783be"
+        }
+      ],
+      "minAppVersion": "0.18.0",
+      "minPluginKitVersion": 1,
+      "iconName": "doc.text",
+      "isVerified": true
     }
   ]
 }
