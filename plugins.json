@@ -199,39 +199,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.1",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.1/EtcdDriverPlugin-arm64.zip",
-      "sha256": "383effa9f0fa62265191c5500684755d4ac39fc4d72598050e6390d9ea17a869",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.1/EtcdDriverPlugin-arm64.zip",
-          "sha256": "383effa9f0fa62265191c5500684755d4ac39fc4d72598050e6390d9ea17a869"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.1/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "ea53711080dd20e2f4222911fcf85097381d607887f48313682de6057b29a924"
-        }
-      ],
-      "minAppVersion": "0.21.0",
-      "minPluginKitVersion": 1,
-      "iconName": "etcd-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.3",
@@ -390,6 +357,39 @@
       "minAppVersion": "0.21.0",
       "minPluginKitVersion": 1,
       "iconName": "redis-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.2",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.2/EtcdDriverPlugin-arm64.zip",
+      "sha256": "67c8112b73b465a26d02cad309f8d2d1a7fb93ddc0f0ec2abe10c25feb402100",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.2/EtcdDriverPlugin-arm64.zip",
+          "sha256": "67c8112b73b465a26d02cad309f8d2d1a7fb93ddc0f0ec2abe10c25feb402100"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.2/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "fdc92b5af17a75eb55c3376b90f0275db16a79c00433d6f2257b002fbfbcc533"
+        }
+      ],
+      "minAppVersion": "0.22.0",
+      "minPluginKitVersion": 1,
+      "iconName": "etcd-icon",
       "isVerified": true
     }
   ]
