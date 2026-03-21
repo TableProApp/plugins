@@ -294,39 +294,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.RedisDriver",
-      "name": "Redis Driver",
-      "version": "1.0.3",
-      "summary": "Redis in-memory data store driver via hiredis",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/redis",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Redis"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.3/RedisDriver-arm64.zip",
-      "sha256": "1ded03a9dc68cbd2aa96473dfbd381cdd8566e23d4ca03017e99435814897527",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.3/RedisDriver-arm64.zip",
-          "sha256": "1ded03a9dc68cbd2aa96473dfbd381cdd8566e23d4ca03017e99435814897527"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.3/RedisDriver-x86_64.zip",
-          "sha256": "59247b541d0a8781ce34ce10dda017f00a37195ec2b7c38ae419e1d771e7fc74"
-        }
-      ],
-      "minAppVersion": "0.21.0",
-      "minPluginKitVersion": 1,
-      "iconName": "redis-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
       "version": "1.0.2",
@@ -390,6 +357,39 @@
       "minAppVersion": "0.22.0",
       "minPluginKitVersion": 1,
       "iconName": "chart.bar.xaxis",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.RedisDriver",
+      "name": "Redis Driver",
+      "version": "1.0.4",
+      "summary": "Redis in-memory data store driver via hiredis",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/redis",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Redis"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.4/RedisDriver-arm64.zip",
+      "sha256": "c861c960a6e39f561270b04efa5f62c72019c57b05f19e24431ad15a4a9117e1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.4/RedisDriver-arm64.zip",
+          "sha256": "c861c960a6e39f561270b04efa5f62c72019c57b05f19e24431ad15a4a9117e1"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.4/RedisDriver-x86_64.zip",
+          "sha256": "dcc0a23ce6746e83d4b5eccdd29a04795ae85834b1dd975669a0b72a613b405b"
+        }
+      ],
+      "minAppVersion": "0.22.0",
+      "minPluginKitVersion": 1,
+      "iconName": "redis-icon",
       "isVerified": true
     }
   ]
