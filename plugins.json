@@ -68,39 +68,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.6",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.6/MongoDBDriver-arm64.zip",
-      "sha256": "ebba55cdb14a7eec4381b7024e53e70d3cf4e818fe2930834cce582ba1670726",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.6/MongoDBDriver-arm64.zip",
-          "sha256": "ebba55cdb14a7eec4381b7024e53e70d3cf4e818fe2930834cce582ba1670726"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.6/MongoDBDriver-x86_64.zip",
-          "sha256": "89b48da5555986077844336175776ff9a408431d6c2e3963476ba3203164940b"
-        }
-      ],
-      "minAppVersion": "0.23.1",
-      "minPluginKitVersion": 2,
-      "iconName": "mongodb-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.SQLImportPlugin",
       "name": "SQL Import",
       "version": "1.0.5",
@@ -423,6 +390,39 @@
       "minAppVersion": "0.23.2",
       "minPluginKitVersion": 2,
       "iconName": "cassandra-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.7",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
+      "sha256": "f6538204bcf00c6cf9b8cca8e6bbe351b030a59f2be07776bd81550161619087",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
+          "sha256": "f6538204bcf00c6cf9b8cca8e6bbe351b030a59f2be07776bd81550161619087"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-x86_64.zip",
+          "sha256": "4563a17afad8654bdf98274cffda6ce71911976c997a59bfcbe7b1f11da03aae"
+        }
+      ],
+      "minAppVersion": "0.23.2",
+      "minPluginKitVersion": 2,
+      "iconName": "mongodb-icon",
       "isVerified": true
     }
   ]
