@@ -2,39 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "com.TablePro.ClickHouseDriver",
-      "name": "ClickHouse Driver",
-      "version": "1.0.6",
-      "summary": "ClickHouse OLAP database driver via HTTP interface",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/clickhouse",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "ClickHouse"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.6/ClickHouseDriver-arm64.zip",
-      "sha256": "8bdb888a2f8c30ed916e76d50eab05e6e94e365120a017d486fb958cf276efa6",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.6/ClickHouseDriver-arm64.zip",
-          "sha256": "8bdb888a2f8c30ed916e76d50eab05e6e94e365120a017d486fb958cf276efa6"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.6/ClickHouseDriver-x86_64.zip",
-          "sha256": "5c8906675ef4378aecd934613b55d6a62f13a10488e6a2e0d4b7b7c1cab054e0"
-        }
-      ],
-      "minAppVersion": "0.22.0",
-      "minPluginKitVersion": 2,
-      "iconName": "chart.bar.xaxis",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.0.6",
@@ -423,6 +390,39 @@
       "minAppVersion": "0.23.2",
       "minPluginKitVersion": 2,
       "iconName": "mongodb-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.ClickHouseDriver",
+      "name": "ClickHouse Driver",
+      "version": "1.0.7",
+      "summary": "ClickHouse OLAP database driver via HTTP interface",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/clickhouse",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "ClickHouse"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.7/ClickHouseDriver-arm64.zip",
+      "sha256": "b301defc5ffa95702d21f0192cd863f6c0900ba2530b43456dfac4f86e3260ae",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.7/ClickHouseDriver-arm64.zip",
+          "sha256": "b301defc5ffa95702d21f0192cd863f6c0900ba2530b43456dfac4f86e3260ae"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-clickhouse-v1.0.7/ClickHouseDriver-x86_64.zip",
+          "sha256": "3cd2b719b7319b22a6c7733958ab76f216213d46cc920917053691329c0bfddc"
+        }
+      ],
+      "minAppVersion": "0.23.2",
+      "minPluginKitVersion": 2,
+      "iconName": "chart.bar.xaxis",
       "isVerified": true
     }
   ]
