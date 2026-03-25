@@ -15,21 +15,21 @@
       "databaseTypeIds": [
         "DuckDB"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
       "sha256": "25ec2f5c2ee76f19a3c49a41ea6e6d4c95817b6c8a48aff462c8dab9b3c5c385",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
           "sha256": "25ec2f5c2ee76f19a3c49a41ea6e6d4c95817b6c8a48aff462c8dab9b3c5c385"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-x86_64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-x86_64.zip",
           "sha256": "9d62efaa695a90d670ab445dc92c7c06720f54a0624b260e68b88adbb0d3f50e"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "bird",
       "isVerified": true
@@ -48,21 +48,21 @@
       "databaseTypeIds": [
         "Cloudflare D1"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
       "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
           "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-x86_64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "98301dd257c0caa528dcabc547be9617949fdf5886af059ac42552516c87e56c"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "cloudflare-d1-icon",
       "isVerified": true
@@ -70,7 +70,7 @@
     {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
       "author": {
         "name": "TablePro",
@@ -81,21 +81,21 @@
       "databaseTypeIds": [
         "etcd"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.3/EtcdDriverPlugin-arm64.zip",
-      "sha256": "fb06eaede06e316694c2a37ca54323ab7bc0a12891e0b6fb579c544a72f25d30",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-arm64.zip",
+      "sha256": "24f4d9242e0a2b9679eb17c6647d4a51f02c987a94f3ad41b9cb903be22a2529",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.3/EtcdDriverPlugin-arm64.zip",
-          "sha256": "fb06eaede06e316694c2a37ca54323ab7bc0a12891e0b6fb579c544a72f25d30"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-arm64.zip",
+          "sha256": "24f4d9242e0a2b9679eb17c6647d4a51f02c987a94f3ad41b9cb903be22a2529"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-etcd-v1.0.3/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "7cad53d237a079e1d956122efcd6248ee1043cec4b8b52c7c0d9030ae7799d0d"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "714b5c84ab755f92bf1be62e85b8af1fc58f4e240c4df50185ef32023f3fc935"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "etcd-icon",
       "isVerified": true
@@ -115,21 +115,21 @@
         "Cassandra",
         "ScyllaDB"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-arm64.zip",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-arm64.zip",
       "sha256": "7ff3c7b7e5a03f58100a0a057962a414f49bb3efdd2895e5d31c99cc059fde5f",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-arm64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-arm64.zip",
           "sha256": "7ff3c7b7e5a03f58100a0a057962a414f49bb3efdd2895e5d31c99cc059fde5f"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-x86_64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.3/CassandraDriver-x86_64.zip",
           "sha256": "3ee8bfacbb9cdbe8c20087c2b1bfcb507dbb0db95c4e9eccdfba5dad030d8199"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "cassandra-icon",
       "isVerified": true
@@ -148,21 +148,21 @@
       "databaseTypeIds": [
         "MongoDB"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
       "sha256": "f6538204bcf00c6cf9b8cca8e6bbe351b030a59f2be07776bd81550161619087",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-arm64.zip",
           "sha256": "f6538204bcf00c6cf9b8cca8e6bbe351b030a59f2be07776bd81550161619087"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-x86_64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.7/MongoDBDriver-x86_64.zip",
           "sha256": "4563a17afad8654bdf98274cffda6ce71911976c997a59bfcbe7b1f11da03aae"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "mongodb-icon",
       "isVerified": true
@@ -181,21 +181,21 @@
       "databaseTypeIds": [
         "Oracle"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-arm64.zip",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-arm64.zip",
       "sha256": "790693731276b092cf97d763bd213d321546ce7afd964c87e7493b9757d368e7",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-arm64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-arm64.zip",
           "sha256": "790693731276b092cf97d763bd213d321546ce7afd964c87e7493b9757d368e7"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-x86_64.zip",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.7/OracleDriver-x86_64.zip",
           "sha256": "f19e64858e807658bc781972bf0b8ab781399a7e9facc1868a5a3b28e7e2c16c"
         }
       ],
-      "minAppVersion": "0.23.2",
+      "minAppVersion": "0.24.0",
       "minPluginKitVersion": 2,
       "iconName": "server.rack",
       "isVerified": true
