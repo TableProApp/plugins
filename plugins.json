@@ -36,37 +36,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.XLSXExportPlugin",
-      "name": "XLSX Export",
-      "version": "1.0.6",
-      "summary": "Export data to Microsoft Excel XLSX format",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/export",
-      "category": "export-format",
-      "databaseTypeIds": null,
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-xlsx-v1.0.6/XLSXExport-arm64.zip",
-      "sha256": "9ffccb96300eeb679f7e06a221fda9d09daf1cecee75298dc1c6f2d8f986062d",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-xlsx-v1.0.6/XLSXExport-arm64.zip",
-          "sha256": "9ffccb96300eeb679f7e06a221fda9d09daf1cecee75298dc1c6f2d8f986062d"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-xlsx-v1.0.6/XLSXExport-x86_64.zip",
-          "sha256": "905a546529c1b66f6bcec77e9e9608348bc6d18fdf799585ce9113154eca14ae"
-        }
-      ],
-      "minAppVersion": "0.26.0",
-      "minPluginKitVersion": 2,
-      "iconName": "doc.richtext",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.0.8",
@@ -295,37 +264,6 @@
       "minAppVersion": "0.26.0",
       "minPluginKitVersion": 2,
       "iconName": "etcd-icon",
-      "isVerified": true
-    },
-    {
-      "id": "com.TablePro.MQLExportPlugin",
-      "name": "MQL Export",
-      "version": "1.0.6",
-      "summary": "Export MongoDB data as MQL statements",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/export",
-      "category": "export-format",
-      "databaseTypeIds": null,
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-arm64.zip",
-      "sha256": "04539614b4e2602806be093f3649f587f275c2b40e8e4661e68108f86e0dff3c",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-arm64.zip",
-          "sha256": "04539614b4e2602806be093f3649f587f275c2b40e8e4661e68108f86e0dff3c"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-x86_64.zip",
-          "sha256": "6e4def8024063fbd2321db059753b532a21f292210273d835e34fca55e39b84f"
-        }
-      ],
-      "minAppVersion": "0.26.0",
-      "minPluginKitVersion": 2,
-      "iconName": "doc.text",
       "isVerified": true
     }
   ]
