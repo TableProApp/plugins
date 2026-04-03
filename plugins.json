@@ -69,39 +69,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.BigQueryDriverPlugin",
-      "name": "BigQuery Driver",
-      "version": "1.0.1",
-      "summary": "Google BigQuery analytics database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/bigquery",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "BigQuery"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.1/BigQueryDriverPlugin-arm64.zip",
-      "sha256": "91e09c3dd118b2902aa2bdee785f89d8b183941f5e13783702bd4227d697ce9e",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.1/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "91e09c3dd118b2902aa2bdee785f89d8b183941f5e13783702bd4227d697ce9e"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.1/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "75a8566d95da62a348d8fe03a5f7470d0b06ad59688536858d0ab5fef214b425"
-        }
-      ],
-      "minAppVersion": "0.27.0",
-      "minPluginKitVersion": 2,
-      "iconName": "bigquery-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.DuckDBDriver",
       "name": "DuckDB Driver",
       "version": "1.0.10",
@@ -297,6 +264,39 @@
       "minAppVersion": "0.27.0",
       "minPluginKitVersion": 2,
       "iconName": "etcd-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.BigQueryDriverPlugin",
+      "name": "BigQuery Driver",
+      "version": "1.0.2",
+      "summary": "Google BigQuery analytics database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/bigquery",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "BigQuery"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.2/BigQueryDriverPlugin-arm64.zip",
+      "sha256": "514e039b595654975a4178c61de53ea5f9944ad5f1de77c408740fe838e43683",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.2/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "514e039b595654975a4178c61de53ea5f9944ad5f1de77c408740fe838e43683"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.2/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "3261e64e7c03ebd5d0f90ae96c171fa50697337b879dfa31f64b32a29da75bbe"
+        }
+      ],
+      "minAppVersion": "0.27.3",
+      "minPluginKitVersion": 2,
+      "iconName": "bigquery-icon",
       "isVerified": true
     }
   ]
