@@ -281,17 +281,17 @@
         "Cloudflare D1"
       ],
       "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.6/CloudflareD1DriverPlugin-arm64.zip",
-      "sha256": "b1a96e6a3b233c984b2cd9732565f18d1f2bb7f90e3a64ef5aa6eda43242aebc",
+      "sha256": "452c41f2bed45e411cf1b5be34227968d9d40d11ee4dbf2ac341895717e9f311",
       "binaries": [
         {
           "architecture": "arm64",
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.6/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "b1a96e6a3b233c984b2cd9732565f18d1f2bb7f90e3a64ef5aa6eda43242aebc"
+          "sha256": "452c41f2bed45e411cf1b5be34227968d9d40d11ee4dbf2ac341895717e9f311"
         },
         {
           "architecture": "x86_64",
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.6/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "5612ce99b3a1ec61e181fe6e3c59e8f92ee92d590a684228d0e4d985d7aacde0"
+          "sha256": "8bf07d5772deb3776a122a0f03e9c665d865fdcdacc6e6194a7436cb07fc0d3d"
         }
       ],
       "minAppVersion": "0.27.4",
