@@ -366,7 +366,7 @@
     {
       "id": "com.TablePro.MSSQLDriver",
       "name": "MSSQL Driver",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "summary": "Microsoft SQL Server driver via FreeTDS",
       "author": {
         "name": "TablePro",
@@ -377,21 +377,21 @@
       "databaseTypeIds": [
         "SQL Server"
       ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.7/MSSQLDriver-arm64.zip",
-      "sha256": "c669b2e304a0daa2c9cc0de6fa72d7df2748fbd1a83fb8df7409ddf86ad24d5c",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.8/MSSQLDriver-arm64.zip",
+      "sha256": "d4a3713b8fef4d7d9008ed0460699bb634c0e0568b2a885e8090c3a9a383d932",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.7/MSSQLDriver-arm64.zip",
-          "sha256": "c669b2e304a0daa2c9cc0de6fa72d7df2748fbd1a83fb8df7409ddf86ad24d5c"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.8/MSSQLDriver-arm64.zip",
+          "sha256": "d4a3713b8fef4d7d9008ed0460699bb634c0e0568b2a885e8090c3a9a383d932"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.7/MSSQLDriver-x86_64.zip",
-          "sha256": "6c837472746850d5aea4adcef5d7ae84e178c69371dba9b4089017a3331cbe7d"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.8/MSSQLDriver-x86_64.zip",
+          "sha256": "595339b42c1a467870be16b97a095361483fb05d770a22186584b983441b9074"
         }
       ],
-      "minAppVersion": "0.30.0",
+      "minAppVersion": "0.30.1",
       "minPluginKitVersion": 2,
       "iconName": "mssql-icon",
       "isVerified": true
