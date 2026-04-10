@@ -2,39 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "com.TablePro.DuckDBDriver",
-      "name": "DuckDB Driver",
-      "version": "1.0.11",
-      "summary": "DuckDB analytical database driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/duckdb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DuckDB"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.11/DuckDBDriver-arm64.zip",
-      "sha256": "da9caa3fce8a6a2ef2344211d7c417996aefe491fddbb43d3d4f78efb6f8b690",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.11/DuckDBDriver-arm64.zip",
-          "sha256": "da9caa3fce8a6a2ef2344211d7c417996aefe491fddbb43d3d4f78efb6f8b690"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.11/DuckDBDriver-x86_64.zip",
-          "sha256": "6062a19a2d345c2b26ae7b8683ba929abad7fba3dfdfcb6fb030b025750b2601"
-        }
-      ],
-      "minAppVersion": "0.27.3",
-      "minPluginKitVersion": 2,
-      "iconName": "bird",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.3",
@@ -394,6 +361,39 @@
       "minAppVersion": "0.30.0",
       "minPluginKitVersion": 2,
       "iconName": "cloudflare-d1-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.DuckDBDriver",
+      "name": "DuckDB Driver",
+      "version": "1.0.12",
+      "summary": "DuckDB analytical database driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/duckdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DuckDB"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.12/DuckDBDriver-arm64.zip",
+      "sha256": "71cebab754f10355faa96b8d53c37fbab4974f3e63a96f3f9ba3164325a3768c",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.12/DuckDBDriver-arm64.zip",
+          "sha256": "71cebab754f10355faa96b8d53c37fbab4974f3e63a96f3f9ba3164325a3768c"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.12/DuckDBDriver-x86_64.zip",
+          "sha256": "45cce797e290073fc584648006b2ec45ea4220c248746e9f11b45785ca4cc1be"
+        }
+      ],
+      "minAppVersion": "0.30.0",
+      "minPluginKitVersion": 2,
+      "iconName": "bird",
       "isVerified": true
     }
   ]
