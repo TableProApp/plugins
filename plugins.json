@@ -366,7 +366,7 @@
     {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
       "author": {
         "name": "TablePro",
@@ -377,21 +377,21 @@
       "databaseTypeIds": [
         "Cloudflare D1"
       ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.8/CloudflareD1DriverPlugin-arm64.zip",
-      "sha256": "6021551b1d13e9a12058352301a70d0d3cb9d7750b3502462885af687640b01d",
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.9/CloudflareD1DriverPlugin-arm64.zip",
+      "sha256": "155b644a5578c64c1fa00b3a2273e3593b63cb080fa982d7538ef64c1f3932b9",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.8/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "6021551b1d13e9a12058352301a70d0d3cb9d7750b3502462885af687640b01d"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.9/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "155b644a5578c64c1fa00b3a2273e3593b63cb080fa982d7538ef64c1f3932b9"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.8/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "515319ed7e329bd24919cc2d03094c9717b02d86d716dd8434d01decb7382318"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.9/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "b9da47b6ca76eb84f7b91b6652a45601f48694f38497495ddd3b636abc9e3906"
         }
       ],
-      "minAppVersion": "0.31.3",
+      "minAppVersion": "0.31.5",
       "minPluginKitVersion": 2,
       "iconName": "cloudflare-d1-icon",
       "isVerified": true
