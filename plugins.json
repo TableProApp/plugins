@@ -33,39 +33,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.OracleDriver",
-      "name": "Oracle Driver",
-      "version": "1.0.12",
-      "summary": "Oracle Database 12c+ driver via OracleNIO",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/oracle",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Oracle"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.12/OracleDriver-arm64.zip",
-      "sha256": "1afadbc4bf58aed4d4b31236307d45b54ef3b287a4d2706abccdd65850889a46",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.12/OracleDriver-arm64.zip",
-          "sha256": "1afadbc4bf58aed4d4b31236307d45b54ef3b287a4d2706abccdd65850889a46"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.12/OracleDriver-x86_64.zip",
-          "sha256": "81928f6b0937ff26c23818675dbba4a563b9dd34a16c95bc91dfbb46bf0a5555"
-        }
-      ],
-      "minAppVersion": "0.33.0",
-      "minPluginKitVersion": 2,
-      "iconName": "server.rack",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.ClickHouseDriver",
       "name": "ClickHouse Driver",
       "version": "1.0.13",
@@ -428,6 +395,39 @@
       "minAppVersion": "0.34.0",
       "minPluginKitVersion": 2,
       "iconName": "redis-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.OracleDriver",
+      "name": "Oracle Driver",
+      "version": "1.0.13",
+      "summary": "Oracle Database 12c+ driver via OracleNIO",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/oracle",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Oracle"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.13/OracleDriver-arm64.zip",
+      "sha256": "9ab231bd77fcc9132feba91bbe50b2d12542cf8273da95f2a8bacb396b8b6e34",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.13/OracleDriver-arm64.zip",
+          "sha256": "9ab231bd77fcc9132feba91bbe50b2d12542cf8273da95f2a8bacb396b8b6e34"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.0.13/OracleDriver-x86_64.zip",
+          "sha256": "da2ea6096835fec3a7c5ffc52d5610fbc42bf61ca27b790bc7f4b9fdad1013ae"
+        }
+      ],
+      "minAppVersion": "0.34.0",
+      "minPluginKitVersion": 2,
+      "iconName": "server.rack",
       "isVerified": true
     }
   ]
