@@ -33,39 +33,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.MSSQLDriver",
-      "name": "MSSQL Driver",
-      "version": "1.0.10",
-      "summary": "Microsoft SQL Server driver via FreeTDS",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mssql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SQL Server"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.10/MSSQLDriver-arm64.zip",
-      "sha256": "422cff47bdda69320fb29a4442ce7543dcde6591b703c6fae10c6e2e6b075c9b",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.10/MSSQLDriver-arm64.zip",
-          "sha256": "422cff47bdda69320fb29a4442ce7543dcde6591b703c6fae10c6e2e6b075c9b"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.10/MSSQLDriver-x86_64.zip",
-          "sha256": "53ab61779ed33120f0b1d87aa38d859846b8cd2cdd636d0ecd2027cf484d4ce5"
-        }
-      ],
-      "minAppVersion": "0.34.0",
-      "minPluginKitVersion": 2,
-      "iconName": "mssql-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.6",
@@ -428,6 +395,39 @@
       "minAppVersion": "0.35.0",
       "minPluginKitVersion": 2,
       "iconName": "server.rack",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MSSQLDriver",
+      "name": "MSSQL Driver",
+      "version": "1.0.11",
+      "summary": "Microsoft SQL Server driver via FreeTDS",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mssql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SQL Server"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.11/MSSQLDriver-arm64.zip",
+      "sha256": "240a7f47ab079ce9f8d1e78cfd21a6b77676954533e00a0af78b13032382bc60",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.11/MSSQLDriver-arm64.zip",
+          "sha256": "240a7f47ab079ce9f8d1e78cfd21a6b77676954533e00a0af78b13032382bc60"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.11/MSSQLDriver-x86_64.zip",
+          "sha256": "bbb3c34538e25a86311fb05b08b9574a73a04a2a421cc9aa17feaf5d6bcd6fc5"
+        }
+      ],
+      "minAppVersion": "0.35.0",
+      "minPluginKitVersion": 2,
+      "iconName": "mssql-icon",
       "isVerified": true
     }
   ]
