@@ -68,39 +68,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.DynamoDBDriverPlugin",
-      "name": "DynamoDB Driver",
-      "version": "1.0.10",
-      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dynamodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DynamoDB"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.10/DynamoDBDriverPlugin-arm64.zip",
-      "sha256": "3edbbd5c425069cb6a2f9cad41b9f07246d8654236be8e81b9dc20026d5a08a1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.10/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "3edbbd5c425069cb6a2f9cad41b9f07246d8654236be8e81b9dc20026d5a08a1"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.10/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "85b6a0bcb1f842581cc7a91e7b1f2fb17df039e0f5e1cb5b60883abcd5986de9"
-        }
-      ],
-      "minAppVersion": "0.38.0",
-      "minPluginKitVersion": 2,
-      "iconName": "dynamodb-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
       "version": "1.0.12",
@@ -397,6 +364,39 @@
       "minAppVersion": "0.40.0",
       "minPluginKitVersion": 2,
       "iconName": "server.rack",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.DynamoDBDriverPlugin",
+      "name": "DynamoDB Driver",
+      "version": "1.0.11",
+      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dynamodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DynamoDB"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.11/DynamoDBDriverPlugin-arm64.zip",
+      "sha256": "94cd37bf5b72be39396bf7d68fc0f290a8fb9150ca91fd67bf0fed2e597437ba",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.11/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "94cd37bf5b72be39396bf7d68fc0f290a8fb9150ca91fd67bf0fed2e597437ba"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.11/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "48ce085ccde03226c38fdb7477a2c7531524d45dce5adb061089ff2d9a38f390"
+        }
+      ],
+      "minAppVersion": "0.40.0",
+      "minPluginKitVersion": 2,
+      "iconName": "dynamodb-icon",
       "isVerified": true
     }
   ]
