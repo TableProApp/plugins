@@ -334,39 +334,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.RedisDriver",
-      "name": "Redis Driver",
-      "version": "1.0.18",
-      "summary": "Redis in-memory data store driver via hiredis",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/redis",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Redis"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-arm64.zip",
-      "sha256": "6a3ac15a66fd931e703374af94769b49a41907cb4761ee15e7fcea9f8b8cc240",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-arm64.zip",
-          "sha256": "6a3ac15a66fd931e703374af94769b49a41907cb4761ee15e7fcea9f8b8cc240"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-x86_64.zip",
-          "sha256": "46d567a9f9ac46456d88501b642ef4ddedf706475b537ec3d963bbb8d58384e8"
-        }
-      ],
-      "minAppVersion": "0.40.0",
-      "minPluginKitVersion": 2,
-      "iconName": "redis-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.ClickHouseDriver",
       "name": "ClickHouse Driver",
       "version": "1.0.18",
@@ -397,6 +364,39 @@
       "minAppVersion": "0.40.0",
       "minPluginKitVersion": 2,
       "iconName": "chart.bar.xaxis",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.RedisDriver",
+      "name": "Redis Driver",
+      "version": "1.0.19",
+      "summary": "Redis in-memory data store driver via hiredis",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/redis",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Redis"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.19/RedisDriver-arm64.zip",
+      "sha256": "e76238254358c12903604989efff7333b72b4fa4cdee47d3c225eaf42744b8d9",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.19/RedisDriver-arm64.zip",
+          "sha256": "e76238254358c12903604989efff7333b72b4fa4cdee47d3c225eaf42744b8d9"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.19/RedisDriver-x86_64.zip",
+          "sha256": "b9daa6a6879eb1cf3958ad8f421195a11802814b2b6167175d26012a2ebab9e1"
+        }
+      ],
+      "minAppVersion": "0.40.0",
+      "minPluginKitVersion": 2,
+      "iconName": "redis-icon",
       "isVerified": true
     }
   ]
