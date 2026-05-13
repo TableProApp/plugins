@@ -2,40 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "com.TablePro.LibSQLDriverPlugin",
-      "name": "libSQL / Turso Driver",
-      "version": "1.0.7",
-      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/libsql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "libSQL",
-        "Turso"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.7/LibSQLDriverPlugin-arm64.zip",
-      "sha256": "aaf876c1b7615f6e66b2ff621fc17bd33c054a4f776e176162da66da56582826",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.7/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "aaf876c1b7615f6e66b2ff621fc17bd33c054a4f776e176162da66da56582826"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.7/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "ed8cedcee24d9d8c7ef64b174a182d54cd009501ae3335d6f4b8b9752e080308"
-        }
-      ],
-      "minAppVersion": "0.40.0",
-      "minPluginKitVersion": 2,
-      "iconName": "libsql-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.23",
@@ -331,6 +297,40 @@
       "minAppVersion": "0.41.0",
       "minPluginKitVersion": 2,
       "iconName": "dynamodb-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.LibSQLDriverPlugin",
+      "name": "libSQL / Turso Driver",
+      "version": "1.0.8",
+      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/libsql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "libSQL",
+        "Turso"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.8/LibSQLDriverPlugin-arm64.zip",
+      "sha256": "1cefce97d4ed2b2cb53c416069b6141d502acaaf713c9f3d9cd3bacf661342cc",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.8/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "1cefce97d4ed2b2cb53c416069b6141d502acaaf713c9f3d9cd3bacf661342cc"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.8/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "795c5807e3ba85bbfc3e5e3e67b597f1eeba08e45c1100ab6e3a539beaf33e22"
+        }
+      ],
+      "minAppVersion": "0.41.0",
+      "minPluginKitVersion": 2,
+      "iconName": "libsql-icon",
       "isVerified": true
     }
   ]
