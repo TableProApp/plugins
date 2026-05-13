@@ -168,40 +168,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.CassandraDriver",
-      "name": "Cassandra Driver",
-      "version": "1.0.20",
-      "summary": "Apache Cassandra and ScyllaDB driver via DataStax C driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cassandra",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cassandra",
-        "ScyllaDB"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.20/CassandraDriver-arm64.zip",
-      "sha256": "209ea503136319e038090fd52fa86911d0b7d7c827d6aaf222c6bfccc10ae76e",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.20/CassandraDriver-arm64.zip",
-          "sha256": "209ea503136319e038090fd52fa86911d0b7d7c827d6aaf222c6bfccc10ae76e"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.20/CassandraDriver-x86_64.zip",
-          "sha256": "4673e44ed3459487c406db29df64aedbd380c4c1b83926f65ea0fc7f64d79a56"
-        }
-      ],
-      "minAppVersion": "0.40.3",
-      "minPluginKitVersion": 2,
-      "iconName": "cassandra-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.23",
@@ -331,6 +297,40 @@
       "minAppVersion": "0.41.0",
       "minPluginKitVersion": 2,
       "iconName": "bigquery-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.CassandraDriver",
+      "name": "Cassandra Driver",
+      "version": "1.0.21",
+      "summary": "Apache Cassandra and ScyllaDB driver via DataStax C driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cassandra",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cassandra",
+        "ScyllaDB"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.21/CassandraDriver-arm64.zip",
+      "sha256": "c62f18f85c0f946127db855004a0c4d6c26df95e972ae628f14489215e2d80aa",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.21/CassandraDriver-arm64.zip",
+          "sha256": "c62f18f85c0f946127db855004a0c4d6c26df95e972ae628f14489215e2d80aa"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.21/CassandraDriver-x86_64.zip",
+          "sha256": "17eb09747f6ba63944dcf7c822b963cfa7ec2597519bcfc8d3100dd2c0a97986"
+        }
+      ],
+      "minAppVersion": "0.41.0",
+      "minPluginKitVersion": 2,
+      "iconName": "cassandra-icon",
       "isVerified": true
     }
   ]
