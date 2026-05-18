@@ -365,6 +365,39 @@
       "minPluginKitVersion": 2,
       "iconName": "chart.bar.xaxis",
       "isVerified": true
+    },
+    {
+      "id": "com.TablePro.RedisDriver",
+      "name": "Redis Driver",
+      "version": "1.0.18",
+      "summary": "Redis in-memory data store driver via hiredis",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/redis",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Redis"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-arm64.zip",
+      "sha256": "bf2a0f79b219420bb08e7a846ce75925a2f5d04172ae72ac3ef7997c9987188d",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-arm64.zip",
+          "sha256": "bf2a0f79b219420bb08e7a846ce75925a2f5d04172ae72ac3ef7997c9987188d"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.18/RedisDriver-x86_64.zip",
+          "sha256": "e3654fd185cff99e2428b4f5e8e4ff6c9cba1e75d1cce3f541ecfa96649a88cd"
+        }
+      ],
+      "minAppVersion": "0.43.0",
+      "minPluginKitVersion": 2,
+      "iconName": "redis-icon",
+      "isVerified": true
     }
   ]
 }
