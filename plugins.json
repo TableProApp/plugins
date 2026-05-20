@@ -99,38 +99,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.MSSQLDriver",
-      "name": "MSSQL Driver",
-      "version": "1.0.21",
-      "summary": "Microsoft SQL Server driver via FreeTDS",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mssql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SQL Server"
-      ],
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 13,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.21/MSSQLDriver-arm64.zip",
-          "sha256": "7a232017a287cf72e338d06dd6778cd117044b0ac2b296d07f273fdef655dfb3"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 13,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.21/MSSQLDriver-x86_64.zip",
-          "sha256": "a14cb0043a5466251fa562f77367e093f932328e86fde9f246ff93cdb186d218"
-        }
-      ],
-      "minAppVersion": "0.43.0",
-      "iconName": "mssql-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
       "version": "1.0.24",
@@ -321,6 +289,38 @@
           "pluginKitVersion": 13,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.24/DuckDBDriver-x86_64.zip",
           "sha256": "66b19a02e2b33d45265c7ec13d6c3c082e70f284cdca1d5fc2baaf232173f9bd"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MSSQLDriver",
+      "name": "MSSQL Driver",
+      "version": "1.0.22",
+      "summary": "Microsoft SQL Server driver via FreeTDS",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mssql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SQL Server"
+      ],
+      "iconName": "mssql-icon",
+      "isVerified": true,
+      "minAppVersion": "0.43.1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 13,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.22/MSSQLDriver-arm64.zip",
+          "sha256": "9a66376cdb91340e2688a226d7db2cb0ed375efb312f5f3b416e2ac0894c3f96"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 13,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.22/MSSQLDriver-x86_64.zip",
+          "sha256": "27b0edcfb8f710e6d98661363d62632aed474e2ad4b3605071affa36cb5c8d3d"
         }
       ]
     }
