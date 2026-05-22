@@ -46,48 +46,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DynamoDBDriverPlugin",
-      "name": "DynamoDB Driver",
-      "version": "1.0.16",
-      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dynamodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DynamoDB"
-      ],
-      "iconName": "dynamodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.43.2",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "03fd514679ee10b631516e646d666d541411aec86387ceee057ae9e858d9a486"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "22ea98e42a067c8082c7f6da4366e80d1905bdaa81ccc41f6040402325852ecc"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "135ec5304f613db6514d88023456beb5a484b68c713f120ebfdbeff57defcee7"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "756329b8ba5abaf0a125c70ffb1120eb946bdcb5efeb61ad148157b8c879debb"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.2.5",
@@ -438,6 +396,50 @@
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.14/BigQueryDriverPlugin-x86_64.zip",
           "sha256": "04000a0803e71c1183deb6c44ebedf25a68268c4d80aeff3cde92f8ce0466cea"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DynamoDBDriverPlugin",
+      "name": "DynamoDB Driver",
+      "version": "1.0.16",
+      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dynamodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DynamoDB"
+      ],
+      "iconName": "dynamodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.44.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "135ec5304f613db6514d88023456beb5a484b68c713f120ebfdbeff57defcee7"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "756329b8ba5abaf0a125c70ffb1120eb946bdcb5efeb61ad148157b8c879debb"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "39ffe265a6eca7625570d5e1b440dab0892e0d7b13094e4f014b3df6975e04af"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "ffa90b6f3fe3d47fb35f2be173d5f76e421d349ad8c98e39d6e1e8176e3648ac"
         }
       ]
     }
