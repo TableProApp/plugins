@@ -46,50 +46,6 @@
       ]
     },
     {
-      "id": "com.TablePro.OracleDriver",
-      "name": "Oracle Driver",
-      "version": "1.2.5",
-      "summary": "Oracle Database 12c+ driver via OracleNIO",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/oracle",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Oracle"
-      ],
-      "iconName": "server.rack",
-      "isVerified": true,
-      "minAppVersion": "0.44.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-arm64.zip",
-          "sha256": "94861c7d7b3e800bbebcea1ae9589ec91c5e1d5f18e3fddb949b8fd13fe1445b"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-x86_64.zip",
-          "sha256": "b99994f9f422f25e3699ee47a290aae70a647ef601554156fabba6ef1388db1c"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-arm64.zip",
-          "sha256": "b8724881bfebeadd9512c5f981df58a57fcc4300b2c0b8401320d77488e50d39"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-x86_64.zip",
-          "sha256": "cc4359e3c2a8873e12c52d700445756e26917fc71087752ae22d922a2205065a"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.17",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "052dc516de70ff6a7722e210e950e2be104e1a4f7c86a1dc6dd00c8d9db78bc8"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.OracleDriver",
+      "name": "Oracle Driver",
+      "version": "1.2.6",
+      "summary": "Oracle Database 12c+ driver via OracleNIO",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/oracle",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Oracle"
+      ],
+      "iconName": "server.rack",
+      "isVerified": true,
+      "minAppVersion": "0.44.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-arm64.zip",
+          "sha256": "94861c7d7b3e800bbebcea1ae9589ec91c5e1d5f18e3fddb949b8fd13fe1445b"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-x86_64.zip",
+          "sha256": "b99994f9f422f25e3699ee47a290aae70a647ef601554156fabba6ef1388db1c"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.6/OracleDriver-arm64.zip",
+          "sha256": "dd3ee49db930d8debadbee46c603bcc6ce8832678c7512f605799e53c65cf2df"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.6/OracleDriver-x86_64.zip",
+          "sha256": "83685711833b4a7df0dcd0884d56a2cc3459d23cc668834c9a7aa15dbfd2c767"
         }
       ]
     }
