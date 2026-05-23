@@ -2,50 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.24",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "iconName": "etcd-icon",
-      "isVerified": true,
-      "minAppVersion": "0.44.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-arm64.zip",
-          "sha256": "3d73d1a6d9c2165cd4632603df38c81589b18c9824314d174ce841dd21f0f955"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "67d11ee111dff4ccf2f4ed5abd83dc65b29a53075d8282cce4be9b8e3ff7b780"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-arm64.zip",
-          "sha256": "5a52e931bcf78e007521880f62a79acc66a0b1f056ba7546c88c8c24e198bf09"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "f8df8c5e32b983cb3a2209ac066136180b5816d3c0e206b9a2b3be17036da69d"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.17",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.6/OracleDriver-x86_64.zip",
           "sha256": "83685711833b4a7df0dcd0884d56a2cc3459d23cc668834c9a7aa15dbfd2c767"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.25",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "iconName": "etcd-icon",
+      "isVerified": true,
+      "minAppVersion": "0.44.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-arm64.zip",
+          "sha256": "3d73d1a6d9c2165cd4632603df38c81589b18c9824314d174ce841dd21f0f955"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "67d11ee111dff4ccf2f4ed5abd83dc65b29a53075d8282cce4be9b8e3ff7b780"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-arm64.zip",
+          "sha256": "e88babab44738c05e9566dcc9e555659db2f2e3a9d27696c1884de70099d2095"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "13da53d8fd640250df54ea3680c57ae1f5856f1f57de0dead1e9e0e3046db3c6"
         }
       ]
     }
