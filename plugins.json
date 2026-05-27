@@ -268,50 +268,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.25",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.44.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-arm64.zip",
-          "sha256": "eb0a65df8aeeaf5d93e394cd0aeeea94f71ee41068863961baa89e8e9c34d80e"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-x86_64.zip",
-          "sha256": "a8b6d90faca87ceb1529710568822986e5b76c78182f68185d317cc0210b9ac4"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.25/MongoDBDriver-arm64.zip",
-          "sha256": "5ea8129c11d4693c54bdc94ba95c5110e3fa15012787dc216fc296a052feb7d8"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.25/MongoDBDriver-x86_64.zip",
-          "sha256": "f26e2c10dac96a95fb2062dc1cd411ec3c5a562882948d4ae051f9038ace94fd"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
       "version": "1.0.23",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-x86_64.zip",
           "sha256": "13da53d8fd640250df54ea3680c57ae1f5856f1f57de0dead1e9e0e3046db3c6"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.26",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.45.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-arm64.zip",
+          "sha256": "eb0a65df8aeeaf5d93e394cd0aeeea94f71ee41068863961baa89e8e9c34d80e"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 14,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-x86_64.zip",
+          "sha256": "a8b6d90faca87ceb1529710568822986e5b76c78182f68185d317cc0210b9ac4"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-arm64.zip",
+          "sha256": "1f18b6d3f80a2b60ea275f3cce2013301df55213e2a53c6390ff6954adee0404"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-x86_64.zip",
+          "sha256": "d712b22e83cb4ebe238dd0691e51856051ce98d6591bb3191d28f64427475295"
         }
       ]
     }
