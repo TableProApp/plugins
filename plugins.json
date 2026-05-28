@@ -260,38 +260,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.26",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.45.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-arm64.zip",
-          "sha256": "1f18b6d3f80a2b60ea275f3cce2013301df55213e2a53c6390ff6954adee0404"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-x86_64.zip",
-          "sha256": "d712b22e83cb4ebe238dd0691e51856051ce98d6591bb3191d28f64427475295"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
       "version": "1.0.24",
@@ -332,6 +300,50 @@
           "pluginKitVersion": 16,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.24/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "423b1dedfd2dfc0514f724a55e8b7e5bb77c7f9e50db638733e67c295eaa01f2"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.27",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.46.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-arm64.zip",
+          "sha256": "1f18b6d3f80a2b60ea275f3cce2013301df55213e2a53c6390ff6954adee0404"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-x86_64.zip",
+          "sha256": "d712b22e83cb4ebe238dd0691e51856051ce98d6591bb3191d28f64427475295"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-arm64.zip",
+          "sha256": "18782377857d2dea2c9eadaaf168d2e7c571c79fc3218788d9f7a01d552194f0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-x86_64.zip",
+          "sha256": "74904c4a5e8d4e508b35e57fe94944ddf348d0d9491532043c15de3b6a8b921a"
         }
       ]
     }
