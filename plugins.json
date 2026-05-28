@@ -99,38 +99,6 @@
       ]
     },
     {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.25",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "iconName": "etcd-icon",
-      "isVerified": true,
-      "minAppVersion": "0.44.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-arm64.zip",
-          "sha256": "e88babab44738c05e9566dcc9e555659db2f2e3a9d27696c1884de70099d2095"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "13da53d8fd640250df54ea3680c57ae1f5856f1f57de0dead1e9e0e3046db3c6"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
       "version": "1.0.24",
@@ -392,6 +360,50 @@
           "pluginKitVersion": 16,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.7/OracleDriver-x86_64.zip",
           "sha256": "82dc4b84feb6b5d81aa55a83333f7180bdfd728978086292432247f5433acd88"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.26",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "iconName": "etcd-icon",
+      "isVerified": true,
+      "minAppVersion": "0.46.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-arm64.zip",
+          "sha256": "e88babab44738c05e9566dcc9e555659db2f2e3a9d27696c1884de70099d2095"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "13da53d8fd640250df54ea3680c57ae1f5856f1f57de0dead1e9e0e3046db3c6"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.26/EtcdDriverPlugin-arm64.zip",
+          "sha256": "55e9c97c9330522e3abee457f2d7386dc029d57960ebb9fc9bc00b91e48908b9"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.26/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "75738e43f39a7d12e705f38d9fd84ce33e340a6167c7c2f4cac22f8d8a8b7e6e"
         }
       ]
     }
