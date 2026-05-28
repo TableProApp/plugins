@@ -196,38 +196,6 @@
       ]
     },
     {
-      "id": "com.TablePro.CloudflareD1DriverPlugin",
-      "name": "Cloudflare D1 Driver",
-      "version": "1.0.23",
-      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cloudflare D1"
-      ],
-      "iconName": "cloudflare-d1-icon",
-      "isVerified": true,
-      "minAppVersion": "0.44.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "fc2b11e27655fa90012d7fb78f86b695eb8acf7925bb8978e8d0e72f8884efa3"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "052dc516de70ff6a7722e210e950e2be104e1a4f7c86a1dc6dd00c8d9db78bc8"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.2.6",
@@ -320,6 +288,50 @@
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-x86_64.zip",
           "sha256": "d712b22e83cb4ebe238dd0691e51856051ce98d6591bb3191d28f64427475295"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.CloudflareD1DriverPlugin",
+      "name": "Cloudflare D1 Driver",
+      "version": "1.0.24",
+      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cloudflare D1"
+      ],
+      "iconName": "cloudflare-d1-icon",
+      "isVerified": true,
+      "minAppVersion": "0.46.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "fc2b11e27655fa90012d7fb78f86b695eb8acf7925bb8978e8d0e72f8884efa3"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 15,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "052dc516de70ff6a7722e210e950e2be104e1a4f7c86a1dc6dd00c8d9db78bc8"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.24/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "d63379b5a45221d04ba1dee741fbe9611765355437d4a9b1a75c577b351c5d3e"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.24/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "423b1dedfd2dfc0514f724a55e8b7e5bb77c7f9e50db638733e67c295eaa01f2"
         }
       ]
     }
