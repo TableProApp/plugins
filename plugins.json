@@ -21,18 +21,6 @@
       "binaries": [
         {
           "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "135ec5304f613db6514d88023456beb5a484b68c713f120ebfdbeff57defcee7"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.16/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "756329b8ba5abaf0a125c70ffb1120eb946bdcb5efeb61ad148157b8c879debb"
-        },
-        {
-          "architecture": "arm64",
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.17/DynamoDBDriverPlugin-arm64.zip",
           "sha256": "1e9f37d7f9b6e7032cbfcaee17ad89026d0d0095b9bf0633b1a547a0ec690feb"
@@ -63,18 +51,6 @@
       "isVerified": true,
       "minAppVersion": "0.44.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.14/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "a8acc307ffe3b7181664c25784f42e655700e08276f4720682b659350dda9d3f"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.14/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "9f66bfe1b67295adf9794b8f3b4166f7a09797718aaa89dda9feff3bdac8665a"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 15,
@@ -109,18 +85,6 @@
       "binaries": [
         {
           "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.24/DuckDBDriver-arm64.zip",
-          "sha256": "41d73b0d4ed3b6f7abceb681cda851792cb07058a3017024d06d6f2a29a6ad11"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.24/DuckDBDriver-x86_64.zip",
-          "sha256": "a451830d1d1d65742c350354e2311b3dc4c8b6c425ad03c1dad380a2b6091928"
-        },
-        {
-          "architecture": "arm64",
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.25/DuckDBDriver-arm64.zip",
           "sha256": "5e6281b0e4d01225cc8f80fa3b8d092dd16854787397f2dd656ca84d3327b68d"
@@ -151,18 +115,6 @@
       "isVerified": true,
       "minAppVersion": "0.44.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.22/MSSQLDriver-arm64.zip",
-          "sha256": "1c9039b7d36b649c80bb91059def435c5eb2b5153821a32cc6ffddfdcd8530a0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.22/MSSQLDriver-x86_64.zip",
-          "sha256": "cd96dc0870aa24c1e397cdef5578c767f49766ba16682291652a9e0e822403c6"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 15,
@@ -198,18 +150,6 @@
       "binaries": [
         {
           "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.10/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "f1c7a666f42a982a8c165cf99e6da850e08a52840bf54a9b2672bacb64827f75"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.10/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "d6fb112751dddd3df9a44de78dded887a293232c1325f77c6d033b95b6dab528"
-        },
-        {
-          "architecture": "arm64",
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.11/LibSQLDriverPlugin-arm64.zip",
           "sha256": "3ee27aa882cd2485e0f61436475640af42df1a43f9ca07ce2de64b98e8c42ee4"
@@ -241,18 +181,6 @@
       "isVerified": true,
       "minAppVersion": "0.44.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.22/CassandraDriver-arm64.zip",
-          "sha256": "e85f95036a43117452197084c5be5fe680e18d6eb7c62c06b86fa416f97e0b21"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.22/CassandraDriver-x86_64.zip",
-          "sha256": "7ea445d3f57ae132d86d11b71932af90ca919d2c683d7921ce8f23d71e406a26"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 15,
@@ -287,18 +215,6 @@
       "binaries": [
         {
           "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.22/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "b1c767621ffb9174d81feb0a494e1cc4f9d37600b99e0a9d7a6b435b0c34f0c0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.22/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "d2287533a8509b7e06b695cebe2f32d80c952cd0bd340b9bf5045df97669a4d8"
-        },
-        {
-          "architecture": "arm64",
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.23/CloudflareD1DriverPlugin-arm64.zip",
           "sha256": "fc2b11e27655fa90012d7fb78f86b695eb8acf7925bb8978e8d0e72f8884efa3"
@@ -329,18 +245,6 @@
       "isVerified": true,
       "minAppVersion": "0.44.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-arm64.zip",
-          "sha256": "94861c7d7b3e800bbebcea1ae9589ec91c5e1d5f18e3fddb949b8fd13fe1445b"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.5/OracleDriver-x86_64.zip",
-          "sha256": "b99994f9f422f25e3699ee47a290aae70a647ef601554156fabba6ef1388db1c"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 15,
@@ -375,18 +279,6 @@
       "binaries": [
         {
           "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-arm64.zip",
-          "sha256": "3d73d1a6d9c2165cd4632603df38c81589b18c9824314d174ce841dd21f0f955"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.24/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "67d11ee111dff4ccf2f4ed5abd83dc65b29a53075d8282cce4be9b8e3ff7b780"
-        },
-        {
-          "architecture": "arm64",
           "pluginKitVersion": 15,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.25/EtcdDriverPlugin-arm64.zip",
           "sha256": "e88babab44738c05e9566dcc9e555659db2f2e3a9d27696c1884de70099d2095"
@@ -417,18 +309,6 @@
       "isVerified": true,
       "minAppVersion": "0.45.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-arm64.zip",
-          "sha256": "eb0a65df8aeeaf5d93e394cd0aeeea94f71ee41068863961baa89e8e9c34d80e"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 14,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.24/MongoDBDriver-x86_64.zip",
-          "sha256": "a8b6d90faca87ceb1529710568822986e5b76c78182f68185d317cc0210b9ac4"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 15,
