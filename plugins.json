@@ -46,50 +46,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.27",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.46.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-arm64.zip",
-          "sha256": "1f18b6d3f80a2b60ea275f3cce2013301df55213e2a53c6390ff6954adee0404"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 15,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.26/MongoDBDriver-x86_64.zip",
-          "sha256": "d712b22e83cb4ebe238dd0691e51856051ce98d6591bb3191d28f64427475295"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-arm64.zip",
-          "sha256": "18782377857d2dea2c9eadaaf168d2e7c571c79fc3218788d9f7a01d552194f0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-x86_64.zip",
-          "sha256": "74904c4a5e8d4e508b35e57fe94944ddf348d0d9491532043c15de3b6a8b921a"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DuckDBDriver",
       "name": "DuckDB Driver",
       "version": "1.0.26",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 17,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.25/MSSQLDriver-x86_64.zip",
           "sha256": "994cce5c05d09ccc772a3ded8cf36953ffada4f23bfbd295d98a8d6a7f6f0c99"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.28",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.47.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-arm64.zip",
+          "sha256": "18782377857d2dea2c9eadaaf168d2e7c571c79fc3218788d9f7a01d552194f0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 16,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.27/MongoDBDriver-x86_64.zip",
+          "sha256": "74904c4a5e8d4e508b35e57fe94944ddf348d0d9491532043c15de3b6a8b921a"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-arm64.zip",
+          "sha256": "b2593108dc62af6a86f969b9d26c7e6e5a40e66c3df716ca0c7791c8e8766fb0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-x86_64.zip",
+          "sha256": "f5779ebe27a4485cc4f0583594201447453b7b5a3bf4a99fe7cad0d0e8839619"
         }
       ]
     }
