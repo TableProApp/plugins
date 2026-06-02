@@ -222,50 +222,6 @@
       ]
     },
     {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.27",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "iconName": "etcd-icon",
-      "isVerified": true,
-      "minAppVersion": "0.47.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.26/EtcdDriverPlugin-arm64.zip",
-          "sha256": "55e9c97c9330522e3abee457f2d7386dc029d57960ebb9fc9bc00b91e48908b9"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.26/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "75738e43f39a7d12e705f38d9fd84ce33e340a6167c7c2f4cac22f8d8a8b7e6e"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-arm64.zip",
-          "sha256": "de5f7776d23aef0541d1420e1e6c3ac1822bac9b69100cda27179a1091623868"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "b97e12263a541fde191e922e5c0ea7bd3fadcd859fb3f3369fdf6164ce5bef59"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.2.8",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.20/DynamoDBDriverPlugin-x86_64.zip",
           "sha256": "d6d719f8c7c49a5fb88e96da1afe72e60da45a935480b92661d6405a32d5eed9"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.28",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "iconName": "etcd-icon",
+      "isVerified": true,
+      "minAppVersion": "0.48.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-arm64.zip",
+          "sha256": "de5f7776d23aef0541d1420e1e6c3ac1822bac9b69100cda27179a1091623868"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "b97e12263a541fde191e922e5c0ea7bd3fadcd859fb3f3369fdf6164ce5bef59"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.28/EtcdDriverPlugin-arm64.zip",
+          "sha256": "464ceb7344ae584f4269d2f249792783554e877159a6b73965e063325a22f4c1"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.28/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "28bcdb4fcd4a3ead47333882005386de482d0af816e9f171eacf25d0f279abfc"
         }
       ]
     }
