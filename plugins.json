@@ -401,7 +401,7 @@
     {
       "id": "com.TablePro.LibSQLDriverPlugin",
       "name": "libSQL / Turso Driver",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "summary": "libSQL and Turso database support via Hrana HTTP protocol",
       "author": {
         "name": "TablePro",
@@ -415,20 +415,8 @@
       ],
       "iconName": "libsql-icon",
       "isVerified": true,
-      "minAppVersion": "0.47.0",
+      "minAppVersion": "0.48.0",
       "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.12/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "3dacdf2b29ed24b57d78e6b63dcb5f1250e34191a6f90afd636a9683d0b9e8fb"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 16,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.12/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "f46166ef6de64005f583e47f12b3abe15b9c9a202beb7cdc4f5908b05255be80"
-        },
         {
           "architecture": "arm64",
           "pluginKitVersion": 17,
@@ -440,6 +428,18 @@
           "pluginKitVersion": 17,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.13/LibSQLDriverPlugin-x86_64.zip",
           "sha256": "8ce323bc8f07c7f06235f7fba2bd1be4b1f7a60a134446a4d4c12deafb056305"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.14/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "145e16ea9d51f50768f768f019662e926d63e803fdbbeebe21a8cd612453079d"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.14/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "a9b6e8fbf6bc342a04b7b2faa23fe9e6bed7161470df677bb9624cc38d5f6fec"
         }
       ]
     }
