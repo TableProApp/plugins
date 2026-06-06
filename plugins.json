@@ -223,38 +223,6 @@
       ]
     },
     {
-      "id": "com.TablePro.SnowflakeDriverPlugin",
-      "name": "Snowflake Driver",
-      "version": "1.0.0",
-      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/snowflake",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Snowflake"
-      ],
-      "iconName": "snowflake-icon",
-      "isVerified": true,
-      "minAppVersion": "1.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-arm64.zip",
-          "sha256": "2bccceb2b4d76a7ad1a6ec0d732e261ad168f8b1451e07817db6e64271496bf5"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-x86_64.zip",
-          "sha256": "502dc96dc3e7d3f98eb50bfd3ebe935dfef285f96f94ea7be42e26905d9351ce"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.21",
@@ -472,6 +440,38 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.30/MongoDBDriver-x86_64.zip",
           "sha256": "a449bd4d3d87833eeb20aabc7ea7065e11b0d9e67db715a1720ad95016d99bbc"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.SnowflakeDriverPlugin",
+      "name": "Snowflake Driver",
+      "version": "1.0.0",
+      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/snowflake",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Snowflake"
+      ],
+      "iconName": "snowflake-icon",
+      "isVerified": true,
+      "minAppVersion": "0.49.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-arm64.zip",
+          "sha256": "cd5bef31b75747e217091d17cd7c26d75ab9e449347eb635b9498015784550fd"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-x86_64.zip",
+          "sha256": "8a3751caf75ac5b729e50043f8296174cddeb0abc9ac8700ed1182c00a8311e3"
         }
       ]
     }
