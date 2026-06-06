@@ -2,50 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.28",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "iconName": "etcd-icon",
-      "isVerified": true,
-      "minAppVersion": "0.48.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-arm64.zip",
-          "sha256": "de5f7776d23aef0541d1420e1e6c3ac1822bac9b69100cda27179a1091623868"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "b97e12263a541fde191e922e5c0ea7bd3fadcd859fb3f3369fdf6164ce5bef59"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.28/EtcdDriverPlugin-arm64.zip",
-          "sha256": "464ceb7344ae584f4269d2f249792783554e877159a6b73965e063325a22f4c1"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.28/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "28bcdb4fcd4a3ead47333882005386de482d0af816e9f171eacf25d0f279abfc"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.30",
@@ -472,6 +428,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.15/LibSQLDriverPlugin-x86_64.zip",
           "sha256": "78f1078db11b2ab8ac738689f800f9df9dedc64f498d684771c5c0020f5eb84b"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.29",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "iconName": "etcd-icon",
+      "isVerified": true,
+      "minAppVersion": "0.49.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-arm64.zip",
+          "sha256": "de5f7776d23aef0541d1420e1e6c3ac1822bac9b69100cda27179a1091623868"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.27/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "b97e12263a541fde191e922e5c0ea7bd3fadcd859fb3f3369fdf6164ce5bef59"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.29/EtcdDriverPlugin-arm64.zip",
+          "sha256": "d253435065cacc78a6fe3b75d1fb013284f1461c3a63b3583b42e97394cc32f2"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.29/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "b3bc99685d4658bc2b9b0c43f0f9a25d778dd0582adda6c2e522ad597b268236"
         }
       ]
     }
