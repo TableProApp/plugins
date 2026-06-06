@@ -268,50 +268,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DuckDBDriver",
-      "name": "DuckDB Driver",
-      "version": "1.0.28",
-      "summary": "DuckDB analytical database driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/duckdb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DuckDB"
-      ],
-      "iconName": "bird",
-      "isVerified": true,
-      "minAppVersion": "0.48.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.27/DuckDBDriver-arm64.zip",
-          "sha256": "ead22ba1a7cf67b6803ca5323c58fe85045c85c3a88a34c1c242d5a93e812208"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.27/DuckDBDriver-x86_64.zip",
-          "sha256": "1bc721973f7c83b9c01bb471b6f07b8192376b204198d83e2ed5042ea3b51f89"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.28/DuckDBDriver-arm64.zip",
-          "sha256": "4c8a0703ff7c1d2cbdf98b3fc50e6a60edaffc0712783d7f79095b71ebf93582"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.28/DuckDBDriver-x86_64.zip",
-          "sha256": "a2a8fc2191560cce6c183e7413b4d2a2ed56cc4033998892b6b53794c3df0282"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.18",
@@ -440,6 +396,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.9/OracleDriver-x86_64.zip",
           "sha256": "66cde794fb07bde6f2d06551e871694e8a6954339af3d635442a49f7a018d9c5"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DuckDBDriver",
+      "name": "DuckDB Driver",
+      "version": "1.0.29",
+      "summary": "DuckDB analytical database driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/duckdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DuckDB"
+      ],
+      "iconName": "bird",
+      "isVerified": true,
+      "minAppVersion": "1.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.27/DuckDBDriver-arm64.zip",
+          "sha256": "ead22ba1a7cf67b6803ca5323c58fe85045c85c3a88a34c1c242d5a93e812208"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.27/DuckDBDriver-x86_64.zip",
+          "sha256": "1bc721973f7c83b9c01bb471b6f07b8192376b204198d83e2ed5042ea3b51f89"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.29/DuckDBDriver-arm64.zip",
+          "sha256": "ebbc17cedbfa396efa7d8db7c69765ecf956b48590d8169f89072778a891da8f"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.29/DuckDBDriver-x86_64.zip",
+          "sha256": "10feb9a50215ea09d193dbbd13e34adb1eaa47805978894ea612f5077c322c3b"
         }
       ]
     }
