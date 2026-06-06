@@ -223,50 +223,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.30",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "1.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-arm64.zip",
-          "sha256": "b2593108dc62af6a86f969b9d26c7e6e5a40e66c3df716ca0c7791c8e8766fb0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-x86_64.zip",
-          "sha256": "f5779ebe27a4485cc4f0583594201447453b7b5a3bf4a99fe7cad0d0e8839619"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.30/MongoDBDriver-arm64.zip",
-          "sha256": "744b407c6b2c950136106696debe5bf41264e90f47083eb15dac3f6b0e5edd8c"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.30/MongoDBDriver-x86_64.zip",
-          "sha256": "19369e7c0fb262a7985b717a076badda2d4b157ab3702dfb4ab14b34bcdfc2d7"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.SnowflakeDriverPlugin",
       "name": "Snowflake Driver",
       "version": "1.0.0",
@@ -472,6 +428,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.10/OracleDriver-x86_64.zip",
           "sha256": "e033a01042e9987fa75da235f938852c24a393e2df45669e52545917ee534f7b"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.30",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.49.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-arm64.zip",
+          "sha256": "b2593108dc62af6a86f969b9d26c7e6e5a40e66c3df716ca0c7791c8e8766fb0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-x86_64.zip",
+          "sha256": "f5779ebe27a4485cc4f0583594201447453b7b5a3bf4a99fe7cad0d0e8839619"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.30/MongoDBDriver-arm64.zip",
+          "sha256": "e97f424dd3eabf0a4a950961af6e31f4e0e6cf33e7b8e8da064ed74b200c2a27"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.30/MongoDBDriver-x86_64.zip",
+          "sha256": "a449bd4d3d87833eeb20aabc7ea7065e11b0d9e67db715a1720ad95016d99bbc"
         }
       ]
     }
