@@ -78,50 +78,6 @@
       ]
     },
     {
-      "id": "com.TablePro.CloudflareD1DriverPlugin",
-      "name": "Cloudflare D1 Driver",
-      "version": "1.0.27",
-      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cloudflare D1"
-      ],
-      "iconName": "cloudflare-d1-icon",
-      "isVerified": true,
-      "minAppVersion": "0.49.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.25/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "77a0c712b919e127f7b92a9114a541473779e97564a138cad309ac85fffae893"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.25/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "3ef1c018b9d283cb11f63320534def619c73ef37b1ed141081c3d0651e2f3340"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.27/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "dd3acefb53419b66e679232037b13f6bbb07c8feebdfac5bd094baa599415863"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.27/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "29de57103d8a2086e81ec6f0b457c010c1f53e13748ecae4147aa470e51290d5"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
       "version": "1.0.29",
@@ -504,6 +460,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-redis-v1.0.19/RedisDriver-x86_64.zip",
           "sha256": "6ba9ac664ac099d6df54909e0bd06c9572136533d464e4391896784ded6ba342"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.CloudflareD1DriverPlugin",
+      "name": "Cloudflare D1 Driver",
+      "version": "1.0.28",
+      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cloudflare D1"
+      ],
+      "iconName": "cloudflare-d1-icon",
+      "isVerified": true,
+      "minAppVersion": "0.52.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.25/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "77a0c712b919e127f7b92a9114a541473779e97564a138cad309ac85fffae893"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.25/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "3ef1c018b9d283cb11f63320534def619c73ef37b1ed141081c3d0651e2f3340"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.28/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "5bb3b5852af2b940af8ee23c3e037cbbdea43aa47e8b324933e38b28e07e1de4"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.28/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "3f23743616264a2a52d8cd058b0c4751d81650979637fae76ced930321e9bc57"
         }
       ]
     }
