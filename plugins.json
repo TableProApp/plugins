@@ -211,50 +211,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.32",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.51.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-arm64.zip",
-          "sha256": "b2593108dc62af6a86f969b9d26c7e6e5a40e66c3df716ca0c7791c8e8766fb0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 17,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-x86_64.zip",
-          "sha256": "f5779ebe27a4485cc4f0583594201447453b7b5a3bf4a99fe7cad0d0e8839619"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.32/MongoDBDriver-arm64.zip",
-          "sha256": "0086e72f2a3266eddcefb5a9ff0d0895c047e26668e4efa53c3fe8f919f635e0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.32/MongoDBDriver-x86_64.zip",
-          "sha256": "512bc124986e542001e2f507086a829a9460108f7933bdf5b0f8b52e0268d613"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DuckDBDriver",
       "name": "DuckDB Driver",
       "version": "1.0.30",
@@ -504,6 +460,50 @@
           "pluginKitVersion": 18,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.28/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "3f23743616264a2a52d8cd058b0c4751d81650979637fae76ced930321e9bc57"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.33",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.52.1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-arm64.zip",
+          "sha256": "b2593108dc62af6a86f969b9d26c7e6e5a40e66c3df716ca0c7791c8e8766fb0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 17,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.28/MongoDBDriver-x86_64.zip",
+          "sha256": "f5779ebe27a4485cc4f0583594201447453b7b5a3bf4a99fe7cad0d0e8839619"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.33/MongoDBDriver-arm64.zip",
+          "sha256": "9870061b2fa0a7ee7a86977fb53f49290ce841d60e9871a623144056dec6dfa6"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.33/MongoDBDriver-x86_64.zip",
+          "sha256": "ce4825d689fcb9131c459fa4226fb47d3d3b1fd6aed1d42ddcfe2e97c4b72ffd"
         }
       ]
     }
