@@ -538,6 +538,38 @@
           "sha256": "44a8fb4762be631050bf32873b560775ec5b518f61373fa37eddc0af42a56d6d"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.SurrealDBDriverPlugin",
+      "name": "SurrealDB Driver",
+      "version": "1.0.0",
+      "summary": "SurrealDB driver over the HTTP RPC protocol with SurrealQL",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/surrealdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SurrealDB"
+      ],
+      "iconName": "surrealdb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.57.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-arm64.zip",
+          "sha256": "f65fa61c1fc6a26392a0fe628569a9075bd10d965db52635936bd9240ffcd460"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-x86_64.zip",
+          "sha256": "848619e2b92faa4ed913e9e0622fcdf88a419c87c4dbc1ef4a44ff5da1a67b88"
+        }
+      ]
     }
   ]
 }
