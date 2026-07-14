@@ -570,6 +570,38 @@
           "sha256": "848619e2b92faa4ed913e9e0622fcdf88a419c87c4dbc1ef4a44ff5da1a67b88"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.BeancountDriver",
+      "name": "Beancount Driver",
+      "version": "1.0.0",
+      "summary": "Read-only Beancount ledger driver using user-provided rledger or Python Beancount",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/beancount",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Beancount"
+      ],
+      "iconName": "beancount-icon",
+      "isVerified": true,
+      "minAppVersion": "0.57.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-arm64.zip",
+          "sha256": "2bd192b924181cc36962b7b4dd6306f3315f4970bebbf4ed61a169bf8adc3ae6"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-x86_64.zip",
+          "sha256": "17f339b6296937cb5b084a7e5dd127b7c7924c2987c26737559a3d35a6a7034c"
+        }
+      ]
     }
   ]
 }
