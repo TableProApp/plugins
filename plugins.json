@@ -602,6 +602,38 @@
           "sha256": "17f339b6296937cb5b084a7e5dd127b7c7924c2987c26737559a3d35a6a7034c"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.ClickHouseDriver",
+      "name": "ClickHouse Driver",
+      "version": "1.0.19",
+      "summary": "ClickHouse OLAP database driver via HTTP interface",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/clickhouse",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "ClickHouse"
+      ],
+      "iconName": "chart.bar.xaxis",
+      "isVerified": true,
+      "minAppVersion": "0.58.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-clickhouse-v1.0.19/ClickHouseDriver-arm64.zip",
+          "sha256": "b5ebd06012ae96658dd985fb44823f92fac88931608279213e3cc46d18c82389"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-clickhouse-v1.0.19/ClickHouseDriver-x86_64.zip",
+          "sha256": "06a8379db30c3dff8330d0d363beb22d02c2c45df5eaecb571a79dd5c9b84eff"
+        }
+      ]
     }
   ]
 }
