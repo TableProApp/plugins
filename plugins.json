@@ -592,9 +592,41 @@
       ]
     },
     {
+      "id": "com.TablePro.TeradataDriver",
+      "name": "Teradata Driver",
+      "version": "1.0.0",
+      "summary": "Teradata Vantage driver via a native Swift TD2 client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/teradata",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Teradata"
+      ],
+      "iconName": "teradata-icon",
+      "isVerified": true,
+      "minAppVersion": "0.58.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.0/TeradataDriver-arm64.zip",
+          "sha256": "59e1a51c7308225daf8fcdd4285b6d7ba52db788b91db719a162035225ebf507"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.0/TeradataDriver-x86_64.zip",
+          "sha256": "8a0f280f7baa71181e4bf965b224d5d8b3418e5e351d692385240e9b70183934"
+        }
+      ]
+    },
+    {
       "id": "com.TablePro.MSSQLDriver",
       "name": "MSSQL Driver",
-      "version": "1.0.30",
+      "version": "1.0.31",
       "summary": "Microsoft SQL Server driver via FreeTDS",
       "author": {
         "name": "TablePro",
@@ -624,46 +656,14 @@
         {
           "architecture": "arm64",
           "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.30/MSSQLDriver-arm64.zip",
-          "sha256": "5ae699786b1dedc8ac182684ef7a4784fd43804c2c548b6706714da262c49c16"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.31/MSSQLDriver-arm64.zip",
+          "sha256": "14b6d8bad143751d418378c0d56665d729ebcb8e3d8f9e09f18696281512252f"
         },
         {
           "architecture": "x86_64",
           "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.30/MSSQLDriver-x86_64.zip",
-          "sha256": "9964a4cf6e05ecdb03928cb3ebfc28887b400ddc113d58ab7cdd1d70514924ff"
-        }
-      ]
-    },
-    {
-      "id": "com.TablePro.TeradataDriver",
-      "name": "Teradata Driver",
-      "version": "1.0.0",
-      "summary": "Teradata Vantage driver via a native Swift TD2 client",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/teradata",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Teradata"
-      ],
-      "iconName": "teradata-icon",
-      "isVerified": true,
-      "minAppVersion": "0.58.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.0/TeradataDriver-arm64.zip",
-          "sha256": "59e1a51c7308225daf8fcdd4285b6d7ba52db788b91db719a162035225ebf507"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.0/TeradataDriver-x86_64.zip",
-          "sha256": "8a0f280f7baa71181e4bf965b224d5d8b3418e5e351d692385240e9b70183934"
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.31/MSSQLDriver-x86_64.zip",
+          "sha256": "8d22d81dee308c06de075fac427465c73fef883759604fec70f81d8c34309617"
         }
       ]
     }
