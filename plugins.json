@@ -46,51 +46,6 @@
       ]
     },
     {
-      "id": "com.TablePro.LibSQLDriverPlugin",
-      "name": "libSQL / Turso Driver",
-      "version": "1.0.18",
-      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/libsql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "libSQL",
-        "Turso"
-      ],
-      "iconName": "libsql-icon",
-      "isVerified": true,
-      "minAppVersion": "0.62.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.17/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "fb9526d71f788a5a68b5dd0374bdbfe4b755b7d126374607d114134836d27c02"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.17/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "2f4a28021b90035474469899a7bb0df378471606d84f640fdadf8009c6c19b1a"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.18/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "e34fc57806ef4d916369da29c81751b1a8fc810932a10872b4f334bf122685e5"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.18/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "ca3eddfd79bf0507480487a935268ccdcd92e133fc36e4cbb6362ddec727fd81"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TrinoDriverPlugin",
       "name": "Trino Driver",
       "version": "1.0.2",
@@ -704,6 +659,51 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.34/MSSQLDriver-x86_64.zip",
           "sha256": "f20db1f79e6c6f6b5e8f265024e5e5c251eaed9ab5fccd7c6a1387da389f3917"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.LibSQLDriverPlugin",
+      "name": "libSQL / Turso Driver",
+      "version": "1.0.19",
+      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/libsql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "libSQL",
+        "Turso"
+      ],
+      "iconName": "libsql-icon",
+      "isVerified": true,
+      "minAppVersion": "0.64.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.17/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "fb9526d71f788a5a68b5dd0374bdbfe4b755b7d126374607d114134836d27c02"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.17/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "2f4a28021b90035474469899a7bb0df378471606d84f640fdadf8009c6c19b1a"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.19/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "5865414104ad932a15420df9e49ac50e4c8a574747b45fd7306c1cbb846183ab"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.19/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "9026ea7e55f2d41b8d1f5bc0da993c980535f2c3285c283e053ca2facd074a91"
         }
       ]
     }
