@@ -444,50 +444,6 @@
       ]
     },
     {
-      "id": "com.TablePro.SnowflakeDriverPlugin",
-      "name": "Snowflake Driver",
-      "version": "1.0.1",
-      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/snowflake",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Snowflake"
-      ],
-      "iconName": "snowflake-icon",
-      "isVerified": true,
-      "minAppVersion": "0.62.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-arm64.zip",
-          "sha256": "cd5bef31b75747e217091d17cd7c26d75ab9e449347eb635b9498015784550fd"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-x86_64.zip",
-          "sha256": "8a3751caf75ac5b729e50043f8296174cddeb0abc9ac8700ed1182c00a8311e3"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.1/SnowflakeDriverPlugin-arm64.zip",
-          "sha256": "5d0b9817d661a257563c56528a9e6555f03e64b98afd3079e5e164ade879dd52"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.1/SnowflakeDriverPlugin-x86_64.zip",
-          "sha256": "fe8dd92e2d952aced0268d1453415c6f12b3f177afec5bb500c303adb10503d2"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.22",
@@ -704,6 +660,50 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.32/DuckDBDriver-x86_64.zip",
           "sha256": "234467dc094af019c5d1411b6e1570562c4dc27e363d26b0ad3379657f9e6020"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.SnowflakeDriverPlugin",
+      "name": "Snowflake Driver",
+      "version": "1.0.2",
+      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/snowflake",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Snowflake"
+      ],
+      "iconName": "snowflake-icon",
+      "isVerified": true,
+      "minAppVersion": "0.64.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-arm64.zip",
+          "sha256": "cd5bef31b75747e217091d17cd7c26d75ab9e449347eb635b9498015784550fd"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.0/SnowflakeDriverPlugin-x86_64.zip",
+          "sha256": "8a3751caf75ac5b729e50043f8296174cddeb0abc9ac8700ed1182c00a8311e3"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.2/SnowflakeDriverPlugin-arm64.zip",
+          "sha256": "f86e9fd0fa85b77cf6de50f1d6e1b555cc302959ff09564f650b535344c1a3f3"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.2/SnowflakeDriverPlugin-x86_64.zip",
+          "sha256": "d1c7c50eb18eaa9bafac2f1800546dff02629abe9544a32e38e1514810a25d67"
         }
       ]
     }
