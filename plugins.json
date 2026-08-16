@@ -576,50 +576,6 @@
       ]
     },
     {
-      "id": "com.TablePro.SurrealDBDriverPlugin",
-      "name": "SurrealDB Driver",
-      "version": "1.0.2",
-      "summary": "SurrealDB driver over the HTTP RPC protocol with SurrealQL",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/surrealdb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SurrealDB"
-      ],
-      "iconName": "surrealdb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.64.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-arm64.zip",
-          "sha256": "f65fa61c1fc6a26392a0fe628569a9075bd10d965db52635936bd9240ffcd460"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-x86_64.zip",
-          "sha256": "848619e2b92faa4ed913e9e0622fcdf88a419c87c4dbc1ef4a44ff5da1a67b88"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.2/SurrealDBDriverPlugin-arm64.zip",
-          "sha256": "939623bac995d19363f0045cb7535ecf218254fcd89a9641e48d97235bcb6bdd"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.2/SurrealDBDriverPlugin-x86_64.zip",
-          "sha256": "2f520f5653637ef1fd53b85b1e264a889fae60f5a22e93be7a5b10db114b90c7"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.38",
@@ -704,6 +660,50 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.35/MSSQLDriver-x86_64.zip",
           "sha256": "7cabaa11d6cc341ec2fb567dfc6ca37b843d9e2513232e0ac84ad033b4e3d1c2"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.SurrealDBDriverPlugin",
+      "name": "SurrealDB Driver",
+      "version": "1.0.3",
+      "summary": "SurrealDB driver over the HTTP RPC protocol with SurrealQL",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/surrealdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SurrealDB"
+      ],
+      "iconName": "surrealdb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.65.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-arm64.zip",
+          "sha256": "f65fa61c1fc6a26392a0fe628569a9075bd10d965db52635936bd9240ffcd460"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.0/SurrealDBDriverPlugin-x86_64.zip",
+          "sha256": "848619e2b92faa4ed913e9e0622fcdf88a419c87c4dbc1ef4a44ff5da1a67b88"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.3/SurrealDBDriverPlugin-arm64.zip",
+          "sha256": "872e0854d83b6c185ae65d3de50c79c907b44ed25cc233b58de73602b087f5f7"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.3/SurrealDBDriverPlugin-x86_64.zip",
+          "sha256": "b9e0be57a2e42bf38eb07efaa15985b5c090af0c9c3ae719152e69a5330188b3"
         }
       ]
     }
