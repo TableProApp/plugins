@@ -706,6 +706,38 @@
           "sha256": "1187e1d60c6ee6c13bf3e2e8daa5724ecc29cfe605026b5de774d7ca2a4cfb88"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.DamengDriver",
+      "name": "Dameng Driver",
+      "version": "1.0.0",
+      "summary": "Dameng DM8 database driver via a native wire client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dameng",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Dameng"
+      ],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.66.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.0/DamengDriver-arm64.zip",
+          "sha256": "cf552f88cc8cf65e2e106f930e8991f4277c42c0cea8bf9c10eb98fd98efb57b"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.0/DamengDriver-x86_64.zip",
+          "sha256": "238cbcb9299bd0437df5c6b05c22879954305e339c1d6aa274371cca6d4928c6"
+        }
+      ]
     }
   ]
 }
