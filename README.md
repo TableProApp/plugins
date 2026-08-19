@@ -1,6 +1,6 @@
 # TablePro Plugin Registry
 
-This repository hosts the plugin registry for [TablePro](https://github.com/datlechin/TablePro). The `plugins.json` manifest is fetched by the app's Browse tab in Settings > Plugins.
+This repository hosts the plugin registry for [TablePro](https://github.com/TableProApp/TablePro). The `plugins.json` manifest is fetched by the app's Browse tab in Settings > Plugins.
 
 ## Registry Format
 
@@ -71,14 +71,38 @@ Each plugin entry can include a `binaries` array with per-architecture downloads
 
 The app selects the binary matching the current Mac's architecture. The flat `downloadURL`/`sha256` fields should point to arm64 for backward compatibility with older app versions that don't support the `binaries` field.
 
-## Submitting a Plugin
+## Submitting a Theme
 
-1. Build your `.tableplugin` bundle following the [plugin registry docs](https://docs.tablepro.app/development/plugin-registry)
-2. Code-sign it with a valid Apple Developer certificate
-3. Build for both architectures (arm64 and x86_64) and create a `.zip` archive for each
-4. Compute the SHA-256 checksums: `shasum -a 256 YourPlugin-arm64.zip YourPlugin-x86_64.zip`
-5. Host the zips on GitHub Releases (or any direct-download URL)
-6. Open a PR adding your plugin entry to `plugins.json` with a `binaries` array
+Themes are open to anyone. A theme is JSON, carries no executable code, and is verified by its
+SHA-256 checksum rather than by a code signature, so nothing here needs the TablePro team.
+
+1. Build the theme in the app: **Settings > Appearance**, then **Export**. A theme pack is several
+   `.json` files in one zip.
+2. Zip the `.json` files: `zip MyTheme.zip *.json`
+3. Compute the checksum: `shasum -a 256 MyTheme.zip`
+4. Host the zip on GitHub Releases, or any direct-download URL.
+5. Open a PR adding an entry to `plugins.json` with `"category": "theme"`, your `downloadURL` and
+   your `sha256`. Themes carry no native code, so they need no `binaries` array.
+
+See [Theme Distribution](https://docs.tablepro.app/development/plugin-registry) for the schema.
+
+## Submitting a Driver or a Format Plugin
+
+**Third-party driver and format plugins cannot be installed today, and a PR adding one will not
+work yet.** The app verifies every `.tableplugin` bundle against TablePro's own Apple Team ID, so a
+bundle signed with your own Developer ID certificate is rejected at load time with "Bundle failed to
+load executable". That check is deliberate, because a driver holds database credentials and runs as
+code inside the app, but it also means the maintainers are the only ones who can currently publish
+one.
+
+Opening this up is planned: the app needs to accept a notarized Developer ID signature behind an
+explicit per-developer trust prompt, and TableProPluginKit needs to ship as a versioned XCFramework
+so a driver can live in its own repository.
+
+Until then, the useful thing you can do is open an issue on
+[TableProApp/TablePro](https://github.com/TableProApp/TablePro/issues) describing the database you
+want, or say in an existing request that you are willing to write the driver. Several are open
+already.
 
 ## Verified Plugins
 
