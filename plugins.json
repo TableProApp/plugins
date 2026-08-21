@@ -178,50 +178,6 @@
       ]
     },
     {
-      "id": "com.TablePro.BeancountDriver",
-      "name": "Beancount Driver",
-      "version": "1.0.3",
-      "summary": "Read-only Beancount ledger driver using user-provided rledger or Python Beancount",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/beancount",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Beancount"
-      ],
-      "iconName": "beancount-icon",
-      "isVerified": true,
-      "minAppVersion": "0.66.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-arm64.zip",
-          "sha256": "2bd192b924181cc36962b7b4dd6306f3315f4970bebbf4ed61a169bf8adc3ae6"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-x86_64.zip",
-          "sha256": "17f339b6296937cb5b084a7e5dd127b7c7924c2987c26737559a3d35a6a7034c"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.3/BeancountDriver-arm64.zip",
-          "sha256": "83ba51e5385480d08356484c0c9d392391ee6f6ccbfb75f1bf31e4310340069f"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.3/BeancountDriver-x86_64.zip",
-          "sha256": "8fa664e764550a1907f3afa4af50d7696caa2d6f1202b725821f1f9ea6db3873"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.MSSQLDriver",
       "name": "MSSQL Driver",
       "version": "1.0.36",
@@ -736,6 +692,50 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.4/ElasticsearchDriverPlugin-x86_64.zip",
           "sha256": "7b0449d1285c4dae22401e17a8fcc3f2eb7630ae0bfc813d87624a5f45c5240e"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.BeancountDriver",
+      "name": "Beancount Driver",
+      "version": "1.0.4",
+      "summary": "Read-only Beancount ledger driver using user-provided rledger or Python Beancount",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/beancount",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Beancount"
+      ],
+      "iconName": "beancount-icon",
+      "isVerified": true,
+      "minAppVersion": "0.67.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-arm64.zip",
+          "sha256": "2bd192b924181cc36962b7b4dd6306f3315f4970bebbf4ed61a169bf8adc3ae6"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.0/BeancountDriver-x86_64.zip",
+          "sha256": "17f339b6296937cb5b084a7e5dd127b7c7924c2987c26737559a3d35a6a7034c"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.4/BeancountDriver-arm64.zip",
+          "sha256": "2654e9e433c6e6fe73923344099f24461e5569516e64d3f8fa279b58355e3e18"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.4/BeancountDriver-x86_64.zip",
+          "sha256": "9d88f5fb995a8e67b63b1aa4dd3c6676c11268d6cd30e54c01f55f84a6731e90"
         }
       ]
     }
