@@ -2,50 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.ElasticsearchDriverPlugin",
-      "name": "Elasticsearch Driver",
-      "version": "1.0.3",
-      "summary": "Elasticsearch driver via the REST API with a Query DSL console",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/elasticsearch",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Elasticsearch"
-      ],
-      "iconName": "elasticsearch-icon",
-      "isVerified": true,
-      "minAppVersion": "0.64.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.1/ElasticsearchDriverPlugin-arm64.zip",
-          "sha256": "2ec0b8394bc92242c008df7521dd638b2a48c0b0bd51539a07d1982cedd7ca6b"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.1/ElasticsearchDriverPlugin-x86_64.zip",
-          "sha256": "9c3be68f2f1ae30b9fdfc272cc76b118029dd1b901aace6978bf2398b8e0f63b"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.3/ElasticsearchDriverPlugin-arm64.zip",
-          "sha256": "b14c1d945a4d02ea0c351d2b12eb0859985014d3f6c24dd076ec5291caed82e1"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.3/ElasticsearchDriverPlugin-x86_64.zip",
-          "sha256": "11b1d0cc298fd1859316298084135840fd529f0db1291f4d0fc216c3c8592741"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TeradataDriver",
       "name": "Teradata Driver",
       "version": "1.0.2",
@@ -736,6 +692,50 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.32/CassandraDriver-x86_64.zip",
           "sha256": "25dd7c102cfdebb86beb04ad2226cadcd2f2778ce5bfa76cb012368eb496c84a"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.ElasticsearchDriverPlugin",
+      "name": "Elasticsearch Driver",
+      "version": "1.0.4",
+      "summary": "Elasticsearch driver via the REST API with a Query DSL console",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/elasticsearch",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Elasticsearch"
+      ],
+      "iconName": "elasticsearch-icon",
+      "isVerified": true,
+      "minAppVersion": "0.67.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.1/ElasticsearchDriverPlugin-arm64.zip",
+          "sha256": "2ec0b8394bc92242c008df7521dd638b2a48c0b0bd51539a07d1982cedd7ca6b"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.1/ElasticsearchDriverPlugin-x86_64.zip",
+          "sha256": "9c3be68f2f1ae30b9fdfc272cc76b118029dd1b901aace6978bf2398b8e0f63b"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.4/ElasticsearchDriverPlugin-arm64.zip",
+          "sha256": "371012704b27f9649ee3f8126c936367d3e9fd9b9fa499af58ff20245e015f5d"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.4/ElasticsearchDriverPlugin-x86_64.zip",
+          "sha256": "7b0449d1285c4dae22401e17a8fcc3f2eb7630ae0bfc813d87624a5f45c5240e"
         }
       ]
     }
