@@ -430,50 +430,6 @@
       ]
     },
     {
-      "id": "com.TablePro.BigQueryDriverPlugin",
-      "name": "BigQuery Driver",
-      "version": "1.0.26",
-      "summary": "Google BigQuery analytics database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/bigquery",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "BigQuery"
-      ],
-      "iconName": "bigquery-icon",
-      "isVerified": true,
-      "minAppVersion": "0.68.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "6d859b9405e408850aaaaf2887735bba20f69ec0eef5c7ac2e80574bc9567760"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "e55ebffa3968a225d8c4307d120c091f8ed6742af96abd72838f0f9323a27f59"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "4e640b944091b7576e766d938baf32735c638f55a485a3068986940acc022113"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "590b27fbdb82465d5a63ff91405e65248fe5b16546876b407661e1fb04d60451"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
       "version": "1.0.34",
@@ -736,6 +692,50 @@
           "pluginKitVersion": 19,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.24/LibSQLDriverPlugin-x86_64.zip",
           "sha256": "c8ad5c9a724bca437daab3340cbd9366146232fdbb286b234c0252ffcca628cd"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.BigQueryDriverPlugin",
+      "name": "BigQuery Driver",
+      "version": "1.0.27",
+      "summary": "Google BigQuery analytics database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/bigquery",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "BigQuery"
+      ],
+      "iconName": "bigquery-icon",
+      "isVerified": true,
+      "minAppVersion": "0.69.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "6d859b9405e408850aaaaf2887735bba20f69ec0eef5c7ac2e80574bc9567760"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 18,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "e55ebffa3968a225d8c4307d120c091f8ed6742af96abd72838f0f9323a27f59"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "28558045c1ccfd1e9780f7f281cf5e3e8387488ee4ec7f4ebcdc68c9b226b728"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "98ac2ba1aeeb2c589cec22d49c782691652060771448db0f7f8e4ac1b29c82f5"
         }
       ]
     }
