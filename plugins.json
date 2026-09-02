@@ -178,50 +178,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DynamoDBDriverPlugin",
-      "name": "DynamoDB Driver",
-      "version": "1.0.26",
-      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dynamodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DynamoDB"
-      ],
-      "iconName": "dynamodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.68.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.22/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "0bc3abac4e8f6c95758a931bd0e7527231398314e764ed744940c28a1600facc"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.22/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "80bdc848a96c593836115fbe7f462c917c30b9a130a358461ef8881d2964c43e"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "0104808c41e571f24974a22c6660da7ef533b30ed868ce1b8c1d31dbc67b620f"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "d267571814a4de7219e57d014386c0a083ddca180e0b3099fe4abd0ff3f08fd8"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
       "version": "1.0.34",
@@ -768,6 +724,50 @@
           "pluginKitVersion": 20,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.42/MSSQLDriver-x86_64.zip",
           "sha256": "11222c64c461bea6e96c192af54842710d4acdca41c512cbcc6e458f41bee003"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DynamoDBDriverPlugin",
+      "name": "DynamoDB Driver",
+      "version": "1.0.27",
+      "summary": "Amazon DynamoDB driver with PartiQL queries and AWS IAM/Profile/SSO authentication",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dynamodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DynamoDB"
+      ],
+      "iconName": "dynamodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.71.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "0104808c41e571f24974a22c6660da7ef533b30ed868ce1b8c1d31dbc67b620f"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "d267571814a4de7219e57d014386c0a083ddca180e0b3099fe4abd0ff3f08fd8"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.27/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "8e25f3a9aab68fe550ddcc6decd0ac99b093d9bb5d44d12f5f16a9bb0de22790"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.27/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "2f7dd3153dc87af4892fdb28c5a224b2ea2b7d01ec49e09723163caf2a1f87a3"
         }
       ]
     }
