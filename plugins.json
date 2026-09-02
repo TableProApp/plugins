@@ -267,50 +267,6 @@
       ]
     },
     {
-      "id": "com.TablePro.BigQueryDriverPlugin",
-      "name": "BigQuery Driver",
-      "version": "1.0.27",
-      "summary": "Google BigQuery analytics database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/bigquery",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "BigQuery"
-      ],
-      "iconName": "bigquery-icon",
-      "isVerified": true,
-      "minAppVersion": "0.69.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "6d859b9405e408850aaaaf2887735bba20f69ec0eef5c7ac2e80574bc9567760"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.21/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "e55ebffa3968a225d8c4307d120c091f8ed6742af96abd72838f0f9323a27f59"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-arm64.zip",
-          "sha256": "28558045c1ccfd1e9780f7f281cf5e3e8387488ee4ec7f4ebcdc68c9b226b728"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-x86_64.zip",
-          "sha256": "98ac2ba1aeeb2c589cec22d49c782691652060771448db0f7f8e4ac1b29c82f5"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TeradataDriver",
       "name": "Teradata Driver",
       "version": "1.0.5",
@@ -780,6 +736,50 @@
           "pluginKitVersion": 20,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.1/KafkaDriverPlugin-x86_64.zip",
           "sha256": "285e3c575beea2f3f3b727152ef80d3449e47ea8b76e16a9632478cd2b35d52b"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.BigQueryDriverPlugin",
+      "name": "BigQuery Driver",
+      "version": "1.0.28",
+      "summary": "Google BigQuery analytics database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/bigquery",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "BigQuery"
+      ],
+      "iconName": "bigquery-icon",
+      "isVerified": true,
+      "minAppVersion": "0.71.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "28558045c1ccfd1e9780f7f281cf5e3e8387488ee4ec7f4ebcdc68c9b226b728"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "98ac2ba1aeeb2c589cec22d49c782691652060771448db0f7f8e4ac1b29c82f5"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.28/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "3f21ffaa98d421b17f29325f6f7a42cbbb0460c009bf0aa56eac875d6d56904c"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.28/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "b066fc40cb00accab1e4578d1c198513e24d3fdd816f02cc57754d09ae2a40a1"
         }
       ]
     }
