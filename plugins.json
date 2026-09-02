@@ -2,51 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.CassandraDriver",
-      "name": "Cassandra Driver",
-      "version": "1.0.34",
-      "summary": "Apache Cassandra and ScyllaDB driver via DataStax C driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cassandra",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cassandra",
-        "ScyllaDB"
-      ],
-      "iconName": "cassandra-icon",
-      "isVerified": true,
-      "minAppVersion": "0.68.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.29/CassandraDriver-arm64.zip",
-          "sha256": "e7beb7ddbf4fc52a0f3ce28468afd165f97909dfc369477820e06e570f9b9ec2"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 18,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.29/CassandraDriver-x86_64.zip",
-          "sha256": "17ab95c0b45b48abef4cfd8baf975336c3e41b4147c0014e1f7e32619908913c"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-arm64.zip",
-          "sha256": "36e17dbce16f597633d9c47d0d088fefebe093069df9317b798fc490ce3eabf9"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-x86_64.zip",
-          "sha256": "0ef5001beb9485e5717701738623a17830feada5ac582ab201219325c353fe7c"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TeradataDriver",
       "name": "Teradata Driver",
       "version": "1.0.5",
@@ -780,6 +735,51 @@
           "pluginKitVersion": 20,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.38/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "4b1dcd3dfceec5a1acfe7a483a0b2136b22ccd7653e9f908aabf575416f1bf5d"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.CassandraDriver",
+      "name": "Cassandra Driver",
+      "version": "1.0.35",
+      "summary": "Apache Cassandra and ScyllaDB driver via DataStax C driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cassandra",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cassandra",
+        "ScyllaDB"
+      ],
+      "iconName": "cassandra-icon",
+      "isVerified": true,
+      "minAppVersion": "0.71.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-arm64.zip",
+          "sha256": "36e17dbce16f597633d9c47d0d088fefebe093069df9317b798fc490ce3eabf9"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 19,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-x86_64.zip",
+          "sha256": "0ef5001beb9485e5717701738623a17830feada5ac582ab201219325c353fe7c"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.35/CassandraDriver-arm64.zip",
+          "sha256": "1d15a90eafd6c2540a5a5f544899e538917e9dc497125522664f6902a4ffa655"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.35/CassandraDriver-x86_64.zip",
+          "sha256": "5acdc93f06427a116c434d9b78c9fc11e09851c871d2f7bc1f3c78d763673b19"
         }
       ]
     }
