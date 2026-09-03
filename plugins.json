@@ -794,6 +794,36 @@
           "sha256": "477cb84975d4f168be6046f97313376ec23797249fb06440bac10ba0814b4d6d"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.ParquetExportPlugin",
+      "name": "Parquet Export",
+      "version": "1.0.0",
+      "summary": "Export data to Apache Parquet",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/import-export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "iconName": "square.grid.3x3",
+      "isVerified": true,
+      "minAppVersion": "0.72.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-arm64.zip",
+          "sha256": "31fb327347de8e9c0474017ade7f48e9f238f395163a82a53950bc4e093fb8f0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-x86_64.zip",
+          "sha256": "912204977b901f734997527cf8729e86266229eea024295991e9fae5e844ebf8"
+        }
+      ]
     }
   ]
 }
