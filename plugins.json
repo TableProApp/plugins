@@ -311,50 +311,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.42",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.71.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.41/MongoDBDriver-arm64.zip",
-          "sha256": "ae59b4b8d29b8f4845aa814fc84ec653e95f2f2845eb573f17abad388157a63b"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.41/MongoDBDriver-x86_64.zip",
-          "sha256": "0d8dc46185c7fa0606cf37bcea7c2f4c9e245dc17d012f9b8cb1284c8ab8f463"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.42/MongoDBDriver-arm64.zip",
-          "sha256": "ac27e598733a7867ac022d7567af4913705c8387ca45ade4870e0b520eed3636"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.42/MongoDBDriver-x86_64.zip",
-          "sha256": "5b0d5f00a9f31236dfd71cdcce3681fbe910c83c5a73ab643c7de9bb7b86c608"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
       "version": "1.0.34",
@@ -792,6 +748,50 @@
           "pluginKitVersion": 21,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.43/MSSQLDriver-x86_64.zip",
           "sha256": "6c4ac6635bc557ac8b6a0d40a5309d88de3a058e4cd927aa2543068bc332346c"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.43",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.72.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.42/MongoDBDriver-arm64.zip",
+          "sha256": "ac27e598733a7867ac022d7567af4913705c8387ca45ade4870e0b520eed3636"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.42/MongoDBDriver-x86_64.zip",
+          "sha256": "5b0d5f00a9f31236dfd71cdcce3681fbe910c83c5a73ab643c7de9bb7b86c608"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.43/MongoDBDriver-arm64.zip",
+          "sha256": "8c45532ea631f2534f807897589329c80427bf7bb650a4d08acb1d47b6c1ca7a"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.43/MongoDBDriver-x86_64.zip",
+          "sha256": "477cb84975d4f168be6046f97313376ec23797249fb06440bac10ba0814b4d6d"
         }
       ]
     }
