@@ -90,50 +90,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DamengDriver",
-      "name": "Dameng Driver",
-      "version": "1.0.5",
-      "summary": "Dameng DM8 database driver via a native wire client",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dameng",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Dameng"
-      ],
-      "iconName": "cylinder",
-      "isVerified": true,
-      "minAppVersion": "0.71.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-arm64.zip",
-          "sha256": "b9a681ee77b0c60285c25feeeec2e7b6dc286460a8da70085ba87f6b886eb61f"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-x86_64.zip",
-          "sha256": "05f4ff9eef22cbb313cc0c77f563ece88b206f63f90654cd96b3a9df6e603832"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.5/DamengDriver-arm64.zip",
-          "sha256": "ca6b17c9b0bad8b45c32dda58bf948beb81f554ee1a5c26416c4ae2efc2d90fe"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.5/DamengDriver-x86_64.zip",
-          "sha256": "0fa96a376c73f1e477fe50c7b8d3a55cdac404afd3736be615d03a6de176b362"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.28",
@@ -822,6 +778,50 @@
           "pluginKitVersion": 21,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.6/SurrealDBDriverPlugin-x86_64.zip",
           "sha256": "3dbb8d73df99342e4912326bd18b17dae0986e2b00338b1d35a0d608a6acdc98"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DamengDriver",
+      "name": "Dameng Driver",
+      "version": "1.0.6",
+      "summary": "Dameng DM8 database driver via a native wire client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dameng",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Dameng"
+      ],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.72.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.5/DamengDriver-arm64.zip",
+          "sha256": "ca6b17c9b0bad8b45c32dda58bf948beb81f554ee1a5c26416c4ae2efc2d90fe"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.5/DamengDriver-x86_64.zip",
+          "sha256": "0fa96a376c73f1e477fe50c7b8d3a55cdac404afd3736be615d03a6de176b362"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.6/DamengDriver-arm64.zip",
+          "sha256": "9c04151c36637167d8c7b83f34c770ce309049e9890250bb8f0a878a29a7df3c"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.6/DamengDriver-x86_64.zip",
+          "sha256": "1114a0183b7264be421a278754a479743c3001f31239cd729fcd00b1daeb4ff6"
         }
       ]
     }
