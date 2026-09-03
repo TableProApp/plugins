@@ -2,50 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.DuckDBDriver",
-      "name": "DuckDB Driver",
-      "version": "1.0.37",
-      "summary": "DuckDB analytical database driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/duckdb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DuckDB"
-      ],
-      "iconName": "duckdb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.71.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-arm64.zip",
-          "sha256": "112207387b8ce7345475eaeddcf71d474303a76eba1efd13a6fb047ec6549e2a"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 19,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-x86_64.zip",
-          "sha256": "c6daa54baa62bf263856967b2a95f22a422da25e8d42771f89803178003b5c4d"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.37/DuckDBDriver-arm64.zip",
-          "sha256": "65e7e710d7dd4d719fee10c233b8787718b65a66e3432bea2cd1ef8e3d35200d"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.37/DuckDBDriver-x86_64.zip",
-          "sha256": "e1f1762e53b386b7d78327a91f057b09efb8ced5963798b46e1b315a3d1a39f7"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.SnowflakeDriverPlugin",
       "name": "Snowflake Driver",
       "version": "1.0.7",
@@ -822,6 +778,50 @@
           "pluginKitVersion": 21,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.27/OracleDriver-x86_64.zip",
           "sha256": "d4db68e2cc50a913781df52eaef797bfd9d30f565f649ff0a48c887fe2f6c493"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DuckDBDriver",
+      "name": "DuckDB Driver",
+      "version": "1.0.38",
+      "summary": "DuckDB analytical database driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/duckdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DuckDB"
+      ],
+      "iconName": "duckdb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.72.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.37/DuckDBDriver-arm64.zip",
+          "sha256": "65e7e710d7dd4d719fee10c233b8787718b65a66e3432bea2cd1ef8e3d35200d"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 20,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.37/DuckDBDriver-x86_64.zip",
+          "sha256": "e1f1762e53b386b7d78327a91f057b09efb8ced5963798b46e1b315a3d1a39f7"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.38/DuckDBDriver-arm64.zip",
+          "sha256": "5e9163b9b0d989137a0a3f82b4c1a21fc5aef56343e18c2b93c9c8d487337622"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.38/DuckDBDriver-x86_64.zip",
+          "sha256": "e87a59b94317ff0ad92360648d61d6a06eaa75ff73c6f71541393054f918b842"
         }
       ]
     }
