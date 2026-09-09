@@ -2,50 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.MSSQLDriver",
-      "name": "MSSQL Driver",
-      "version": "1.0.43",
-      "summary": "Microsoft SQL Server driver via FreeTDS",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mssql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SQL Server"
-      ],
-      "iconName": "mssql-icon",
-      "isVerified": true,
-      "minAppVersion": "0.72.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.42/MSSQLDriver-arm64.zip",
-          "sha256": "8a1397a47fbe304f0faf75873ea4ab62808b6f6bfdbd2e174491c6cba9020958"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.42/MSSQLDriver-x86_64.zip",
-          "sha256": "11222c64c461bea6e96c192af54842710d4acdca41c512cbcc6e458f41bee003"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.43/MSSQLDriver-arm64.zip",
-          "sha256": "77a4121a5a07928db19486f8787bd722b917aefbca9552b01915b3c7e6bbc13d"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.43/MSSQLDriver-x86_64.zip",
-          "sha256": "6c4ac6635bc557ac8b6a0d40a5309d88de3a058e4cd927aa2543068bc332346c"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
       "version": "1.0.40",
@@ -834,6 +790,50 @@
           "pluginKitVersion": 25,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.30/BigQueryDriverPlugin-x86_64.zip",
           "sha256": "07b8b99e7fbd50b6aa3cb61f3ea2f57bd2ff9b0ba389b4aa291356d28ce764ea"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MSSQLDriver",
+      "name": "MSSQL Driver",
+      "version": "1.0.44",
+      "summary": "Microsoft SQL Server driver via FreeTDS",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mssql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SQL Server"
+      ],
+      "iconName": "mssql-icon",
+      "isVerified": true,
+      "minAppVersion": "0.73.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.43/MSSQLDriver-arm64.zip",
+          "sha256": "77a4121a5a07928db19486f8787bd722b917aefbca9552b01915b3c7e6bbc13d"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.43/MSSQLDriver-x86_64.zip",
+          "sha256": "6c4ac6635bc557ac8b6a0d40a5309d88de3a058e4cd927aa2543068bc332346c"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.44/MSSQLDriver-arm64.zip",
+          "sha256": "712a4202724e63efcc950f0ae7485eb21e7454040d3a2ad094d1d95bd77f0af6"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.44/MSSQLDriver-x86_64.zip",
+          "sha256": "17c0c8f33921be443ebc2a9a9f050ad71ffee391bebbc2c19cffdec39cb66b96"
         }
       ]
     }
