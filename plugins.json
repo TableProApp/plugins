@@ -836,6 +836,38 @@
           "sha256": "17c0c8f33921be443ebc2a9a9f050ad71ffee391bebbc2c19cffdec39cb66b96"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.TypesenseDriverPlugin",
+      "name": "Typesense Driver",
+      "version": "1.0.0",
+      "summary": "Typesense driver over the REST API with a request console",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/typesense",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Typesense"
+      ],
+      "iconName": "typesense-icon",
+      "isVerified": true,
+      "minAppVersion": "0.73.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-arm64.zip",
+          "sha256": "5ae88b7b1c79cca85fe9acd077f0e2245249d93ea21746369dfdbc63770a93f2"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-x86_64.zip",
+          "sha256": "151b30648ff92050a71e4033cafbe8c8fe338d824e13c754426c9c55152c2dcf"
+        }
+      ]
     }
   ]
 }
