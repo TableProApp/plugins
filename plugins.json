@@ -134,50 +134,6 @@
       ]
     },
     {
-      "id": "com.TablePro.KafkaDriverPlugin",
-      "name": "Kafka Driver",
-      "version": "1.0.2",
-      "summary": "Apache Kafka topic and message browser over the native wire protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/kafka",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Kafka"
-      ],
-      "iconName": "kafka-icon",
-      "isVerified": true,
-      "minAppVersion": "0.72.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.1/KafkaDriverPlugin-arm64.zip",
-          "sha256": "9a90de05d9f2493984d813ad25f775284c0a8f7a6c118d68a27ded4b0027fef3"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.1/KafkaDriverPlugin-x86_64.zip",
-          "sha256": "285e3c575beea2f3f3b727152ef80d3449e47ea8b76e16a9632478cd2b35d52b"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.2/KafkaDriverPlugin-arm64.zip",
-          "sha256": "0b56f880430d1f9abfdaccc28fcab01a26d9fa7df1bacf3a13534f0d83291a78"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.2/KafkaDriverPlugin-x86_64.zip",
-          "sha256": "a0f4ddc15a227fe2843974cd7024600e209f80e4e002f9d84336f54707c5caab"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TrinoDriverPlugin",
       "name": "Trino Driver",
       "version": "1.0.9",
@@ -834,6 +790,50 @@
           "pluginKitVersion": 25,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.37/CassandraDriver-x86_64.zip",
           "sha256": "cd9f339a055c634e5518db8a9fe6d80fcef97a28bed2192dc4247194683d644f"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.KafkaDriverPlugin",
+      "name": "Kafka Driver",
+      "version": "1.0.3",
+      "summary": "Apache Kafka topic and message browser over the native wire protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/kafka",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Kafka"
+      ],
+      "iconName": "kafka-icon",
+      "isVerified": true,
+      "minAppVersion": "0.73.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.2/KafkaDriverPlugin-arm64.zip",
+          "sha256": "0b56f880430d1f9abfdaccc28fcab01a26d9fa7df1bacf3a13534f0d83291a78"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.2/KafkaDriverPlugin-x86_64.zip",
+          "sha256": "a0f4ddc15a227fe2843974cd7024600e209f80e4e002f9d84336f54707c5caab"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.3/KafkaDriverPlugin-arm64.zip",
+          "sha256": "209be0d6bd054df36079bec8e2a5018c48230c6cfcb90f5b490a6c92f92f6ab5"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.3/KafkaDriverPlugin-x86_64.zip",
+          "sha256": "6e6ff7dd74944af54582f914b85cb44255e995680d1452b363f416a0d6bcafca"
         }
       ]
     }
