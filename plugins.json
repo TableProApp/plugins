@@ -46,50 +46,6 @@
       ]
     },
     {
-      "id": "com.TablePro.TrinoDriverPlugin",
-      "name": "Trino Driver",
-      "version": "1.0.9",
-      "summary": "Trino distributed SQL engine driver via the REST client protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/trino",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Trino"
-      ],
-      "iconName": "trino-icon",
-      "isVerified": true,
-      "minAppVersion": "0.72.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.8/TrinoDriverPlugin-arm64.zip",
-          "sha256": "830c10d238eff3faa4ba247610651d087ea0ec223a4da97c10d011d5db7a85d0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 20,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.8/TrinoDriverPlugin-x86_64.zip",
-          "sha256": "9287950d651f646462cd9e62149673de12db8f5a423ba23dd09f2c2b0b777ab8"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-arm64.zip",
-          "sha256": "74c730839a1064d3c1f47d09f925eea8e895a83d221e4d51bafd26060e19acc7"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-x86_64.zip",
-          "sha256": "667b08ed5812a85d7f521c827c7c9a89bf4d083e411e02ff908fdfb97fc06558"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.29",
@@ -834,6 +790,50 @@
           "pluginKitVersion": 25,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.7/SurrealDBDriverPlugin-x86_64.zip",
           "sha256": "a59c3721de8565d6e08f38c92ecc4c8e313df71d5d815db9e9446a8303112e4f"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.TrinoDriverPlugin",
+      "name": "Trino Driver",
+      "version": "1.0.10",
+      "summary": "Trino distributed SQL engine driver via the REST client protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/trino",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Trino"
+      ],
+      "iconName": "trino-icon",
+      "isVerified": true,
+      "minAppVersion": "0.73.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-arm64.zip",
+          "sha256": "74c730839a1064d3c1f47d09f925eea8e895a83d221e4d51bafd26060e19acc7"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-x86_64.zip",
+          "sha256": "667b08ed5812a85d7f521c827c7c9a89bf4d083e411e02ff908fdfb97fc06558"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-arm64.zip",
+          "sha256": "5f67c8c224ee68a415dc54b7afcc65ecc049f6a90fa6cff0fe993719d8782fab"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-x86_64.zip",
+          "sha256": "d2ba8edad3b1d0f769d32db697e2f4e22c382e31999a752ebe256b8c2a34df42"
         }
       ]
     }
