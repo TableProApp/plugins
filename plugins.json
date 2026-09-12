@@ -398,50 +398,6 @@
       ]
     },
     {
-      "id": "com.TablePro.MongoDBDriver",
-      "name": "MongoDB Driver",
-      "version": "1.0.44",
-      "summary": "MongoDB document database driver via libmongoc",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/mongodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "MongoDB"
-      ],
-      "iconName": "mongodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.73.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.43/MongoDBDriver-arm64.zip",
-          "sha256": "8c45532ea631f2534f807897589329c80427bf7bb650a4d08acb1d47b6c1ca7a"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.43/MongoDBDriver-x86_64.zip",
-          "sha256": "477cb84975d4f168be6046f97313376ec23797249fb06440bac10ba0814b4d6d"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.44/MongoDBDriver-arm64.zip",
-          "sha256": "7f25a5665754c46e030948cc39df2d43d93a380ee3099708ed43b6e2edd9cb75"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.44/MongoDBDriver-x86_64.zip",
-          "sha256": "bcd40db132a2395be768fa04b3a3e04f0dd264d4489783f5923fc7cfad9d73c5"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.2.28",
@@ -962,6 +918,50 @@
           "pluginKitVersion": 30,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.40/DuckDBDriver-x86_64.zip",
           "sha256": "7f3dd1eb650e4498061b9a8be5d26e19466520b86e05230f8d6f85fa733cad64"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.MongoDBDriver",
+      "name": "MongoDB Driver",
+      "version": "1.0.45",
+      "summary": "MongoDB document database driver via libmongoc",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/mongodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "MongoDB"
+      ],
+      "iconName": "mongodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.44/MongoDBDriver-arm64.zip",
+          "sha256": "7f25a5665754c46e030948cc39df2d43d93a380ee3099708ed43b6e2edd9cb75"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.44/MongoDBDriver-x86_64.zip",
+          "sha256": "bcd40db132a2395be768fa04b3a3e04f0dd264d4489783f5923fc7cfad9d73c5"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.45/MongoDBDriver-arm64.zip",
+          "sha256": "faad0e17a7e3ca91680d68a93f59b665162bcd96508f88749e23d6851c0ef826"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.45/MongoDBDriver-x86_64.zip",
+          "sha256": "85f2f57a094dae4b5536f376a6e0678bd67d35b288aac66388869eef6eb30f74"
         }
       ]
     }
