@@ -398,50 +398,6 @@
       ]
     },
     {
-      "id": "com.TablePro.SnowflakeDriverPlugin",
-      "name": "Snowflake Driver",
-      "version": "1.0.9",
-      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/snowflake",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Snowflake"
-      ],
-      "iconName": "snowflake-icon",
-      "isVerified": true,
-      "minAppVersion": "0.73.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.8/SnowflakeDriverPlugin-arm64.zip",
-          "sha256": "2dac117690212878e3b77d723c0ebe01c1f3f261e4da26b9756173f868cd0271"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.8/SnowflakeDriverPlugin-x86_64.zip",
-          "sha256": "ad6ce255d445581e766a626fbbc44e9c72026bf27e453eb09d3a1f6b5cb73102"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.9/SnowflakeDriverPlugin-arm64.zip",
-          "sha256": "a2376ae1967feefa1015c16a384a841ec8259bafa87463ec19f96813aa0f57aa"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.9/SnowflakeDriverPlugin-x86_64.zip",
-          "sha256": "ed6d201231e67bf36523ac079f71f0e31786077cbc81cee6e79c410d4eb43321"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.29",
@@ -962,6 +918,50 @@
           "pluginKitVersion": 30,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.41/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "4155ce08fd2a8153b8134ae37548c5c390729d61ad2f071f2cf27f30decfa547"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.SnowflakeDriverPlugin",
+      "name": "Snowflake Driver",
+      "version": "1.0.10",
+      "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/snowflake",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Snowflake"
+      ],
+      "iconName": "snowflake-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.9/SnowflakeDriverPlugin-arm64.zip",
+          "sha256": "a2376ae1967feefa1015c16a384a841ec8259bafa87463ec19f96813aa0f57aa"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.9/SnowflakeDriverPlugin-x86_64.zip",
+          "sha256": "ed6d201231e67bf36523ac079f71f0e31786077cbc81cee6e79c410d4eb43321"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.10/SnowflakeDriverPlugin-arm64.zip",
+          "sha256": "f394f9702c6e5636bee5ebf2ac8441632790d3ea2a4e4326e762041d36011204"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.10/SnowflakeDriverPlugin-x86_64.zip",
+          "sha256": "1633ffcc9f590c909dedad8f8da88a45181df3306937ebdc69e6cfadef125c76"
         }
       ]
     }
