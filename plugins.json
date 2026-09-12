@@ -133,50 +133,6 @@
       ]
     },
     {
-      "id": "com.TablePro.TeradataDriver",
-      "name": "Teradata Driver",
-      "version": "1.0.8",
-      "summary": "Teradata Vantage driver via a native Swift TD2 client",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/teradata",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Teradata"
-      ],
-      "iconName": "teradata-icon",
-      "isVerified": true,
-      "minAppVersion": "0.73.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.7/TeradataDriver-arm64.zip",
-          "sha256": "f2b826266b578c50866f672fe14154a8d89f3359f6f49b03d30bf225eced3571"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.7/TeradataDriver-x86_64.zip",
-          "sha256": "dbdc4859b8fcc5de1c3cb86e0cac603589bbb142b35f0f3895d00150f58ea596"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-arm64.zip",
-          "sha256": "2f86007dfbce728c1a3a59682fcf766a12ae49d5395f2bf5693c5935919e5c67"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-x86_64.zip",
-          "sha256": "300d0adbb77a2e2c2ed02b0286d6d48afaa71900938b89f9de61595aee115962"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
       "version": "1.0.37",
@@ -962,6 +918,50 @@
           "pluginKitVersion": 30,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.45/MongoDBDriver-x86_64.zip",
           "sha256": "85f2f57a094dae4b5536f376a6e0678bd67d35b288aac66388869eef6eb30f74"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.TeradataDriver",
+      "name": "Teradata Driver",
+      "version": "1.0.9",
+      "summary": "Teradata Vantage driver via a native Swift TD2 client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/teradata",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Teradata"
+      ],
+      "iconName": "teradata-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-arm64.zip",
+          "sha256": "2f86007dfbce728c1a3a59682fcf766a12ae49d5395f2bf5693c5935919e5c67"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-x86_64.zip",
+          "sha256": "300d0adbb77a2e2c2ed02b0286d6d48afaa71900938b89f9de61595aee115962"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-arm64.zip",
+          "sha256": "024e63685fe3e306271462a6c834291939f0e99506e5c261222eefeaa05dbcf9"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-x86_64.zip",
+          "sha256": "6d1309361e63578aafadc72bc9cafbf09d68855d67638b513b0c70b68edc63da"
         }
       ]
     }
