@@ -932,6 +932,38 @@
           "sha256": "a9c38880739b0d042d4c161568f72d81bd812e15480b3e53093ea2451310503d"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.WeaviateDriverPlugin",
+      "name": "Weaviate Driver",
+      "version": "1.0.0",
+      "summary": "Weaviate driver over the REST API with a GraphQL console",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/weaviate",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Weaviate"
+      ],
+      "iconName": "weaviate-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-arm64.zip",
+          "sha256": "4450c5a1a2091ef5eb82ffa63dc4e15d9ad6b8d4c8d9b567cb9ea2c537078149"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-x86_64.zip",
+          "sha256": "b3f5ce66a46fd1ed93b204f3d26a6caedf44486243b0b0fa0a17d2e15ca0bb4d"
+        }
+      ]
     }
   ]
 }
