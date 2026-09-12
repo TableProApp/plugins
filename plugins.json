@@ -868,6 +868,38 @@
           "sha256": "151b30648ff92050a71e4033cafbe8c8fe338d824e13c754426c9c55152c2dcf"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.CloudflareR2SQLDriverPlugin",
+      "name": "Cloudflare R2 SQL Driver",
+      "version": "1.0.0",
+      "summary": "Read-only Cloudflare R2 SQL driver for Iceberg tables in R2 Data Catalog via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cloudflare-r2-sql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cloudflare R2 SQL"
+      ],
+      "iconName": "cloudflare-r2-sql-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-r2-sql-v1.0.0/CloudflareR2SQLDriverPlugin-arm64.zip",
+          "sha256": "fe16e8bf0b135a45f4b8eb8c07fe52525d57a79dcd8214dec4f34933395cb5e8"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-r2-sql-v1.0.0/CloudflareR2SQLDriverPlugin-x86_64.zip",
+          "sha256": "c8123d709da4c819edb3544f18ca92d85a8c36622b3e21c822af0cf27fee0143"
+        }
+      ]
     }
   ]
 }
