@@ -900,6 +900,38 @@
           "sha256": "c8123d709da4c819edb3544f18ca92d85a8c36622b3e21c822af0cf27fee0143"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.SpannerDriverPlugin",
+      "name": "Spanner Driver",
+      "version": "1.0.0",
+      "summary": "Google Cloud Spanner driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/spanner",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Spanner"
+      ],
+      "iconName": "spanner-icon",
+      "isVerified": true,
+      "minAppVersion": "0.74.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.0/SpannerDriverPlugin-arm64.zip",
+          "sha256": "4408baf6dc44e32861a4c4a9b6e4f4c926de04e7c9c273bd3dae5b60b5e03e11"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.0/SpannerDriverPlugin-x86_64.zip",
+          "sha256": "b4ba98f08d329feeed52eefa837c92d0a70adb040640668517c9ea9aec1ebfa5"
+        }
+      ]
     }
   ]
 }
