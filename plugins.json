@@ -612,51 +612,6 @@
       ]
     },
     {
-      "id": "com.TablePro.LibSQLDriverPlugin",
-      "name": "libSQL / Turso Driver",
-      "version": "1.0.29",
-      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/libsql",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "libSQL",
-        "Turso"
-      ],
-      "iconName": "libsql-icon",
-      "isVerified": true,
-      "minAppVersion": "0.74.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.28/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "44e7767b790597eb7ae42489c7d0128a660884189bcab78ea2d1b64ff54b4684"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.28/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "02f9170bb884ad5b29b03d1d1629f84d11305f94fb52a7d396307a75149f3469"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.29/LibSQLDriverPlugin-arm64.zip",
-          "sha256": "3a11894fd164fbd6be2e0a2fb1b73398fa07b1a3128e70565dad24438bfa94ea"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.29/LibSQLDriverPlugin-x86_64.zip",
-          "sha256": "701edae458314565da78e745afad9d8d2bc96072268e0d8fb7ca3878163333a4"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.ElasticsearchDriverPlugin",
       "name": "Elasticsearch Driver",
       "version": "1.0.9",
@@ -1046,6 +1001,63 @@
           "pluginKitVersion": 32,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.9/BeancountDriver-x86_64.zip",
           "sha256": "270cd7d15408f512bf154b9087540078fd918ef783fefe28b30797b0ca491a3f"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.LibSQLDriverPlugin",
+      "name": "libSQL / Turso Driver",
+      "version": "1.0.30",
+      "summary": "libSQL and Turso database support via Hrana HTTP protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/libsql",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "libSQL",
+        "Turso"
+      ],
+      "iconName": "libsql-icon",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.28/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "44e7767b790597eb7ae42489c7d0128a660884189bcab78ea2d1b64ff54b4684"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.28/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "02f9170bb884ad5b29b03d1d1629f84d11305f94fb52a7d396307a75149f3469"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.29/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "3a11894fd164fbd6be2e0a2fb1b73398fa07b1a3128e70565dad24438bfa94ea"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.29/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "701edae458314565da78e745afad9d8d2bc96072268e0d8fb7ca3878163333a4"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.30/LibSQLDriverPlugin-arm64.zip",
+          "sha256": "b3ea7e8c5281234cd8e41b5ed562a0807c865d181eecfa53484c94c6b982f35c"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.30/LibSQLDriverPlugin-x86_64.zip",
+          "sha256": "8c6b15522aa70ef2a70e095b3c450a459c9d75668c68cebb9df6091b921bab6b"
         }
       ]
     }
