@@ -744,50 +744,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DamengDriver",
-      "name": "Dameng Driver",
-      "version": "1.0.8",
-      "summary": "Dameng DM8 database driver via a native wire client",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dameng",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Dameng"
-      ],
-      "iconName": "cylinder",
-      "isVerified": true,
-      "minAppVersion": "0.74.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.7/DamengDriver-arm64.zip",
-          "sha256": "b7e73072e424d4b0a6c5030ab0e820fe982db96693ed933eb2c636a7c6602a6e"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.7/DamengDriver-x86_64.zip",
-          "sha256": "95e1211d0fabda730da8066bed0da5e5298fd22e2e9403c25d0244fd8e4b0289"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.8/DamengDriver-arm64.zip",
-          "sha256": "fa3c2c566789929e3270db2bc6fd2d8a372a9acc3b4396488c844d944a81b79f"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.8/DamengDriver-x86_64.zip",
-          "sha256": "68b8082f64356dc9d8acb3e9429a97f5356c7eb1678ab7ecbb68ca16fae65b1f"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.LibSQLDriverPlugin",
       "name": "libSQL / Turso Driver",
       "version": "1.0.29",
@@ -998,6 +954,62 @@
           "pluginKitVersion": 32,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.38/CassandraDriver-x86_64.zip",
           "sha256": "dbb5f831f34ef2be6d590abe1b47a1213882b9cda39a161ad907d35a21f042ea"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DamengDriver",
+      "name": "Dameng Driver",
+      "version": "1.0.9",
+      "summary": "Dameng DM8 database driver via a native wire client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dameng",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Dameng"
+      ],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.7/DamengDriver-arm64.zip",
+          "sha256": "b7e73072e424d4b0a6c5030ab0e820fe982db96693ed933eb2c636a7c6602a6e"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.7/DamengDriver-x86_64.zip",
+          "sha256": "95e1211d0fabda730da8066bed0da5e5298fd22e2e9403c25d0244fd8e4b0289"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.8/DamengDriver-arm64.zip",
+          "sha256": "fa3c2c566789929e3270db2bc6fd2d8a372a9acc3b4396488c844d944a81b79f"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.8/DamengDriver-x86_64.zip",
+          "sha256": "68b8082f64356dc9d8acb3e9429a97f5356c7eb1678ab7ecbb68ca16fae65b1f"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.9/DamengDriver-arm64.zip",
+          "sha256": "508e3245861f5a51a4f7492ccc06fdb8529246e6e857cb5b7b4f1c68fbe85e72"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.9/DamengDriver-x86_64.zip",
+          "sha256": "415353c1fded6d8f999885cf1922d1111bd6382a2b57f90ef6e8f24eefbeda9c"
         }
       ]
     }
