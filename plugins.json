@@ -360,38 +360,6 @@
       ]
     },
     {
-      "id": "com.TablePro.WeaviateDriverPlugin",
-      "name": "Weaviate Driver",
-      "version": "1.0.0",
-      "summary": "Weaviate driver over the REST API with a GraphQL console",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/weaviate",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Weaviate"
-      ],
-      "iconName": "weaviate-icon",
-      "isVerified": true,
-      "minAppVersion": "0.74.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-arm64.zip",
-          "sha256": "4450c5a1a2091ef5eb82ffa63dc4e15d9ad6b8d4c8d9b567cb9ea2c537078149"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-x86_64.zip",
-          "sha256": "b3f5ce66a46fd1ed93b204f3d26a6caedf44486243b0b0fa0a17d2e15ca0bb4d"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.31",
@@ -1058,6 +1026,50 @@
           "pluginKitVersion": 32,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.30/LibSQLDriverPlugin-x86_64.zip",
           "sha256": "8c6b15522aa70ef2a70e095b3c450a459c9d75668c68cebb9df6091b921bab6b"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.WeaviateDriverPlugin",
+      "name": "Weaviate Driver",
+      "version": "1.0.1",
+      "summary": "Weaviate driver over the REST API with a GraphQL console",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/weaviate",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Weaviate"
+      ],
+      "iconName": "weaviate-icon",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-arm64.zip",
+          "sha256": "4450c5a1a2091ef5eb82ffa63dc4e15d9ad6b8d4c8d9b567cb9ea2c537078149"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.0/WeaviateDriverPlugin-x86_64.zip",
+          "sha256": "b3f5ce66a46fd1ed93b204f3d26a6caedf44486243b0b0fa0a17d2e15ca0bb4d"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.1/WeaviateDriverPlugin-arm64.zip",
+          "sha256": "0478e1375a5d0f8f004fe8b0a5e7d333e67d0ff532b74b0f2d3dd517094ddea3"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.1/WeaviateDriverPlugin-x86_64.zip",
+          "sha256": "b7af708c9ae1aa588b1e39d7c8c01c365c50d6a8501750494ccde4cbf8d774af"
         }
       ]
     }
