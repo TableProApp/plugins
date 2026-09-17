@@ -176,50 +176,6 @@
       ]
     },
     {
-      "id": "com.TablePro.TrinoDriverPlugin",
-      "name": "Trino Driver",
-      "version": "1.0.10",
-      "summary": "Trino distributed SQL engine driver via the REST client protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/trino",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Trino"
-      ],
-      "iconName": "trino-icon",
-      "isVerified": true,
-      "minAppVersion": "0.73.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-arm64.zip",
-          "sha256": "74c730839a1064d3c1f47d09f925eea8e895a83d221e4d51bafd26060e19acc7"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-x86_64.zip",
-          "sha256": "667b08ed5812a85d7f521c827c7c9a89bf4d083e411e02ff908fdfb97fc06558"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-arm64.zip",
-          "sha256": "5f67c8c224ee68a415dc54b7afcc65ecc049f6a90fa6cff0fe993719d8782fab"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-x86_64.zip",
-          "sha256": "d2ba8edad3b1d0f769d32db697e2f4e22c382e31999a752ebe256b8c2a34df42"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.TypesenseDriverPlugin",
       "name": "Typesense Driver",
       "version": "1.0.0",
@@ -1094,6 +1050,62 @@
           "pluginKitVersion": 32,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-r2-sql-v1.0.1/CloudflareR2SQLDriverPlugin-x86_64.zip",
           "sha256": "41a2b35e99c0a1208242864797eb58a346410de666e866b500fc37c46fc51113"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.TrinoDriverPlugin",
+      "name": "Trino Driver",
+      "version": "1.0.11",
+      "summary": "Trino distributed SQL engine driver via the REST client protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/trino",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Trino"
+      ],
+      "iconName": "trino-icon",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-arm64.zip",
+          "sha256": "74c730839a1064d3c1f47d09f925eea8e895a83d221e4d51bafd26060e19acc7"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.9/TrinoDriverPlugin-x86_64.zip",
+          "sha256": "667b08ed5812a85d7f521c827c7c9a89bf4d083e411e02ff908fdfb97fc06558"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-arm64.zip",
+          "sha256": "5f67c8c224ee68a415dc54b7afcc65ecc049f6a90fa6cff0fe993719d8782fab"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.10/TrinoDriverPlugin-x86_64.zip",
+          "sha256": "d2ba8edad3b1d0f769d32db697e2f4e22c382e31999a752ebe256b8c2a34df42"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.11/TrinoDriverPlugin-arm64.zip",
+          "sha256": "b903967cd2615997e3cfdcc7b5f9c9c8f321824c869e64ed24a852bab66a3e52"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.11/TrinoDriverPlugin-x86_64.zip",
+          "sha256": "c9e9f6fed98fb105748b1529909602294d08a3bfe52eea6bacaecca77cb3fd35"
         }
       ]
     }
