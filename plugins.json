@@ -2,48 +2,6 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.TablePro.ParquetExportPlugin",
-      "name": "Parquet Export",
-      "version": "1.0.1",
-      "summary": "Export data to Apache Parquet",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/import-export",
-      "category": "export-format",
-      "databaseTypeIds": null,
-      "iconName": "square.grid.3x3",
-      "isVerified": true,
-      "minAppVersion": "0.73.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-arm64.zip",
-          "sha256": "31fb327347de8e9c0474017ade7f48e9f238f395163a82a53950bc4e093fb8f0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 21,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-x86_64.zip",
-          "sha256": "912204977b901f734997527cf8729e86266229eea024295991e9fae5e844ebf8"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.1/ParquetExport-arm64.zip",
-          "sha256": "791d7a50c40feccf71b9b6aaec6f89502304a94c4982e94696be3a9b28e8a60a"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.1/ParquetExport-x86_64.zip",
-          "sha256": "a6d270f88968482c2db12c4a60068dc2914c402c7299bf029481348d8a9919c7"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
       "version": "1.0.29",
@@ -1178,6 +1136,60 @@
           "pluginKitVersion": 32,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.8/SurrealDBDriverPlugin-x86_64.zip",
           "sha256": "7320d98546d1d1404ae56571a46186ea440b29d1a4064b9bcfc44282ac622fd6"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.ParquetExportPlugin",
+      "name": "Parquet Export",
+      "version": "1.0.2",
+      "summary": "Export data to Apache Parquet",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/import-export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "iconName": "square.grid.3x3",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-arm64.zip",
+          "sha256": "31fb327347de8e9c0474017ade7f48e9f238f395163a82a53950bc4e093fb8f0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 21,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.0/ParquetExport-x86_64.zip",
+          "sha256": "912204977b901f734997527cf8729e86266229eea024295991e9fae5e844ebf8"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.1/ParquetExport-arm64.zip",
+          "sha256": "791d7a50c40feccf71b9b6aaec6f89502304a94c4982e94696be3a9b28e8a60a"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.1/ParquetExport-x86_64.zip",
+          "sha256": "a6d270f88968482c2db12c4a60068dc2914c402c7299bf029481348d8a9919c7"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.2/ParquetExport-arm64.zip",
+          "sha256": "5153957c967369f321837a6c87c9b93da89bf417868680ffabe85641a99afe7b"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.2/ParquetExport-x86_64.zip",
+          "sha256": "ce510bd2ff90252118e8cf9e2d6440c476da2cf55fc09d97d856b5584b9e30f0"
         }
       ]
     }
