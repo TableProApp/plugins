@@ -300,62 +300,6 @@
       ]
     },
     {
-      "id": "com.TablePro.TeradataDriver",
-      "name": "Teradata Driver",
-      "version": "1.0.10",
-      "summary": "Teradata Vantage driver via a native Swift TD2 client",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/teradata",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Teradata"
-      ],
-      "iconName": "teradata-icon",
-      "isVerified": true,
-      "minAppVersion": "0.75.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-arm64.zip",
-          "sha256": "2f86007dfbce728c1a3a59682fcf766a12ae49d5395f2bf5693c5935919e5c67"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.8/TeradataDriver-x86_64.zip",
-          "sha256": "300d0adbb77a2e2c2ed02b0286d6d48afaa71900938b89f9de61595aee115962"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-arm64.zip",
-          "sha256": "024e63685fe3e306271462a6c834291939f0e99506e5c261222eefeaa05dbcf9"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 30,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-x86_64.zip",
-          "sha256": "6d1309361e63578aafadc72bc9cafbf09d68855d67638b513b0c70b68edc63da"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.10/TeradataDriver-arm64.zip",
-          "sha256": "ad369cfb2563e45c391e9de21997ed9a6f8a1e643a84ec92a856d72101033966"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.10/TeradataDriver-x86_64.zip",
-          "sha256": "e3f46cb03c11395c761eb0c16cd14513803cbc94c9ad94f51f43a039a292326a"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
       "version": "1.0.43",
@@ -1250,6 +1194,62 @@
           "pluginKitVersion": 33,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.6/KafkaDriverPlugin-x86_64.zip",
           "sha256": "f62d131836ba9b3b2e8a14c19df146e5c18e64142c273a8c42b7d0e2d1d88337"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.TeradataDriver",
+      "name": "Teradata Driver",
+      "version": "1.0.11",
+      "summary": "Teradata Vantage driver via a native Swift TD2 client",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/teradata",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Teradata"
+      ],
+      "iconName": "teradata-icon",
+      "isVerified": true,
+      "minAppVersion": "0.76.1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-arm64.zip",
+          "sha256": "024e63685fe3e306271462a6c834291939f0e99506e5c261222eefeaa05dbcf9"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 30,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.9/TeradataDriver-x86_64.zip",
+          "sha256": "6d1309361e63578aafadc72bc9cafbf09d68855d67638b513b0c70b68edc63da"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.10/TeradataDriver-arm64.zip",
+          "sha256": "ad369cfb2563e45c391e9de21997ed9a6f8a1e643a84ec92a856d72101033966"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.10/TeradataDriver-x86_64.zip",
+          "sha256": "e3f46cb03c11395c761eb0c16cd14513803cbc94c9ad94f51f43a039a292326a"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.11/TeradataDriver-arm64.zip",
+          "sha256": "c18426de85d45b788cc20195083c5a7c1ecc309f7a6f826b31dfb921051294ec"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.11/TeradataDriver-x86_64.zip",
+          "sha256": "af97374a681f3908296cd02b72d0b18fc7948b355a40ae18c3dfa842d3b797ac"
         }
       ]
     }
