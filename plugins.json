@@ -56,50 +56,6 @@
       ]
     },
     {
-      "id": "com.TablePro.TypesenseDriverPlugin",
-      "name": "Typesense Driver",
-      "version": "1.0.1",
-      "summary": "Typesense driver over the REST API with a request console",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/typesense",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Typesense"
-      ],
-      "iconName": "typesense-icon",
-      "isVerified": true,
-      "minAppVersion": "0.75.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-arm64.zip",
-          "sha256": "5ae88b7b1c79cca85fe9acd077f0e2245249d93ea21746369dfdbc63770a93f2"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-x86_64.zip",
-          "sha256": "151b30648ff92050a71e4033cafbe8c8fe338d824e13c754426c9c55152c2dcf"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.1/TypesenseDriverPlugin-arm64.zip",
-          "sha256": "f5ea79d460b5ce50a41cceb13d9fb8ad823c1b7b39d37a6fec1a615310fb9145"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.1/TypesenseDriverPlugin-x86_64.zip",
-          "sha256": "59627e050993dbaf03ab46cc42b3e4e4ed7e9389f89b364175e0193575c5bc73"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
       "version": "1.0.33",
@@ -1299,6 +1255,64 @@
           "pluginKitVersion": 34,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.48/MSSQLDriver-x86_64.zip",
           "sha256": "67891a068ebe49878382bac25c588b7d36dc0a00eb28eaac2b808a0a94d75af7",
+          "minAppVersion": "0.77.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.TypesenseDriverPlugin",
+      "name": "Typesense Driver",
+      "version": "1.0.2",
+      "summary": "Typesense driver over the REST API with a request console",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/typesense",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Typesense"
+      ],
+      "iconName": "typesense-icon",
+      "isVerified": true,
+      "minAppVersion": "0.75.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-arm64.zip",
+          "sha256": "5ae88b7b1c79cca85fe9acd077f0e2245249d93ea21746369dfdbc63770a93f2"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 25,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.0/TypesenseDriverPlugin-x86_64.zip",
+          "sha256": "151b30648ff92050a71e4033cafbe8c8fe338d824e13c754426c9c55152c2dcf"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.1/TypesenseDriverPlugin-arm64.zip",
+          "sha256": "f5ea79d460b5ce50a41cceb13d9fb8ad823c1b7b39d37a6fec1a615310fb9145"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.1/TypesenseDriverPlugin-x86_64.zip",
+          "sha256": "59627e050993dbaf03ab46cc42b3e4e4ed7e9389f89b364175e0193575c5bc73"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.2/TypesenseDriverPlugin-arm64.zip",
+          "sha256": "684e97c157b00d5dc9443263ce543400532752a480d206af0d6819a2df416225",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.2/TypesenseDriverPlugin-x86_64.zip",
+          "sha256": "d0c9d6c7b07a6b0597a39fca5bb8815bf93816498f8a36d542ea87a3caffb728",
           "minAppVersion": "0.77.0"
         }
       ]
