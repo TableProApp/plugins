@@ -524,62 +524,6 @@
       ]
     },
     {
-      "id": "com.TablePro.DynamoDBDriverPlugin",
-      "name": "DynamoDB Driver",
-      "version": "1.0.31",
-      "summary": "Amazon DynamoDB: index-aware browsing, typed editing, PartiQL, the DynamoDB API and table management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/dynamodb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DynamoDB"
-      ],
-      "iconName": "dynamodb-icon",
-      "isVerified": true,
-      "minAppVersion": "0.76.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.29/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "79c33bf22d56a2b5507801f501f2832aebe6f08fdb6856e5c08d2cec4cd229e5"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 25,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.29/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "42779dd2cd73d2f831e67e8eba2cdb5e033d30d5c5cef372430b30d67bdad0bc"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.30/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "0e5d0f585ca87d283816ea733096be2f6bd7920e544947d51906b015cf2c8cf6"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.30/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "f78023453cc4a0570cd360480121069893f6ef05e135cc119c1c9d495690cece"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.31/DynamoDBDriverPlugin-arm64.zip",
-          "sha256": "fe2782c5d76ff4561c7a275149b02e9bd0c382ce524827de6fbae747620a9443"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.31/DynamoDBDriverPlugin-x86_64.zip",
-          "sha256": "caa84c3d47acde201630fe154484df7b6049d138d0a13120235fb4fcfa6e272c"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.SpannerDriverPlugin",
       "name": "Spanner Driver",
       "version": "1.0.2",
@@ -1251,6 +1195,64 @@
           "pluginKitVersion": 34,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.48/MongoDBDriver-x86_64.zip",
           "sha256": "0df5e00392982982a5aaf2a1dc3478da43a43df132fd460f592c3d1294da9453",
+          "minAppVersion": "0.77.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.DynamoDBDriverPlugin",
+      "name": "DynamoDB Driver",
+      "version": "1.0.32",
+      "summary": "Amazon DynamoDB: index-aware browsing, typed editing, PartiQL, the DynamoDB API and table management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/dynamodb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DynamoDB"
+      ],
+      "iconName": "dynamodb-icon",
+      "isVerified": true,
+      "minAppVersion": "0.76.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.30/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "0e5d0f585ca87d283816ea733096be2f6bd7920e544947d51906b015cf2c8cf6"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 32,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.30/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "f78023453cc4a0570cd360480121069893f6ef05e135cc119c1c9d495690cece"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.31/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "fe2782c5d76ff4561c7a275149b02e9bd0c382ce524827de6fbae747620a9443"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.31/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "caa84c3d47acde201630fe154484df7b6049d138d0a13120235fb4fcfa6e272c"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.32/DynamoDBDriverPlugin-arm64.zip",
+          "sha256": "ba1d9b8ad6da09e3f8ea7de6f93ecbd7c3c6b392dc53d0c35de9b722d64a33bb",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.32/DynamoDBDriverPlugin-x86_64.zip",
+          "sha256": "cd106f863db91932c48df525543bbf0ba47d49a801dbb7038b4570be3ebdf367",
           "minAppVersion": "0.77.0"
         }
       ]
