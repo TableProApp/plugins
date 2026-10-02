@@ -1322,6 +1322,40 @@
           "minAppVersion": "0.77.0"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.HanaDriver",
+      "name": "SAP HANA Driver",
+      "version": "1.0.0",
+      "summary": "SAP HANA SQL driver via SAP/go-hdb",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/sap-hana",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SAP HANA"
+      ],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.77.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-arm64.zip",
+          "sha256": "561e5dd963f45c530a50acd8d87de534aca79bcf82f59201f136f0740abf807f",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-x86_64.zip",
+          "sha256": "7a77e006f5eb73fd158c2e0dcef07ff090ed74b238a02641951318b9397c4ef9",
+          "minAppVersion": "0.77.0"
+        }
+      ]
     }
   ]
 }
