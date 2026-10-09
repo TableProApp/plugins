@@ -990,66 +990,6 @@
       ]
     },
     {
-      "id": "com.TablePro.OracleDriver",
-      "name": "Oracle Driver",
-      "version": "1.2.34",
-      "summary": "Oracle Database 12c+ driver via OracleNIO",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/oracle",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Oracle"
-      ],
-      "iconName": "oracle-icon",
-      "isVerified": true,
-      "minAppVersion": "0.76.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.31/OracleDriver-arm64.zip",
-          "sha256": "bf053422a99a3c6712a6a7d333ce06e5ba2b1dc5e6db6fdf51760a9f712f06c9"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.31/OracleDriver-x86_64.zip",
-          "sha256": "fe2ecce90945048510ebb07c1ea29aebe3ee05a88fbdbde9233841375fd5677c"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.33/OracleDriver-arm64.zip",
-          "sha256": "ef736fa4205f0c55d36f964103033a80ed33f6c0e262a7227052b173ce5f9f59",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.33/OracleDriver-x86_64.zip",
-          "sha256": "3a55cecfb34570cdb3e9c4c42007d1dd33ca442ad87c3e003cd4e57943bd3ad7",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 35,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.34/OracleDriver-arm64.zip",
-          "sha256": "84e578b3ea99c58a331a9815b247a6b46a7305a43c3ad64c3b6a7caa9d6e2d53",
-          "minAppVersion": "0.78.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 35,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.34/OracleDriver-x86_64.zip",
-          "sha256": "b9303685ad78561e46ffef451f19c57709c6bbd8db424bd534d22ef04aa256c9",
-          "minAppVersion": "0.78.0"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.ElasticsearchDriverPlugin",
       "name": "Elasticsearch Driver",
       "version": "1.0.12",
@@ -1393,6 +1333,68 @@
           "pluginKitVersion": 36,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.3/TypesenseDriverPlugin-x86_64.zip",
           "sha256": "259cdaa2ac61fd10c93e04822bd2d3ad30c22850a4c768b3b4049dfd45010bb0",
+          "minAppVersion": "0.79.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.OracleDriver",
+      "name": "Oracle Driver",
+      "version": "1.2.35",
+      "summary": "Oracle Database 12c+ driver via OracleNIO",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/oracle",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Oracle"
+      ],
+      "iconName": "oracle-icon",
+      "isVerified": true,
+      "minAppVersion": "0.77.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.33/OracleDriver-arm64.zip",
+          "sha256": "ef736fa4205f0c55d36f964103033a80ed33f6c0e262a7227052b173ce5f9f59",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.33/OracleDriver-x86_64.zip",
+          "sha256": "3a55cecfb34570cdb3e9c4c42007d1dd33ca442ad87c3e003cd4e57943bd3ad7",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 35,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.34/OracleDriver-arm64.zip",
+          "sha256": "84e578b3ea99c58a331a9815b247a6b46a7305a43c3ad64c3b6a7caa9d6e2d53",
+          "minAppVersion": "0.78.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 35,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.34/OracleDriver-x86_64.zip",
+          "sha256": "b9303685ad78561e46ffef451f19c57709c6bbd8db424bd534d22ef04aa256c9",
+          "minAppVersion": "0.78.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.35/OracleDriver-arm64.zip",
+          "sha256": "2ff487fe5abb920d5b0896aed22f14b209a39de0ed7bf47cb37902f966fed22c",
+          "minAppVersion": "0.79.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.35/OracleDriver-x86_64.zip",
+          "sha256": "58d34348df2918123f93ddc1983c9b3c2144937ac24e663af03f07647f1dfd29",
           "minAppVersion": "0.79.0"
         }
       ]
