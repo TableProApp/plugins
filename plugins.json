@@ -1046,64 +1046,6 @@
       ]
     },
     {
-      "id": "com.TablePro.KafkaDriverPlugin",
-      "name": "Kafka Driver",
-      "version": "1.0.7",
-      "summary": "Apache Kafka topic and message browser over the native wire protocol",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/kafka",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Kafka"
-      ],
-      "iconName": "kafka-icon",
-      "isVerified": true,
-      "minAppVersion": "0.76.1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.4/KafkaDriverPlugin-arm64.zip",
-          "sha256": "fd27517e224ee2b5c554eae5778cd9add296c7189100cf11bd5547ae5573e509"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 32,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.4/KafkaDriverPlugin-x86_64.zip",
-          "sha256": "ad1d46bb7ac68bd73cc360e339e0573aa662473eb23cfda1111b04535bf664d0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.6/KafkaDriverPlugin-arm64.zip",
-          "sha256": "1407d970fe22d3b3352790bb7d2937dc257c9321296e58c6ff5d027542cfb3af"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.6/KafkaDriverPlugin-x86_64.zip",
-          "sha256": "f62d131836ba9b3b2e8a14c19df146e5c18e64142c273a8c42b7d0e2d1d88337"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.7/KafkaDriverPlugin-arm64.zip",
-          "sha256": "ab332e8f7e958973c1f68aa69667909be21718d0aa213d09f950c063db1afc15",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.7/KafkaDriverPlugin-x86_64.zip",
-          "sha256": "eebe6f8ec65da4098f13a68a5fe6ee969b34bfa6d57e43c1104dd9150c2ffffd",
-          "minAppVersion": "0.77.0"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.BeancountDriver",
       "name": "Beancount Driver",
       "version": "1.0.11",
@@ -1387,6 +1329,66 @@
           "pluginKitVersion": 36,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-x86_64.zip",
           "sha256": "e1155151680503afc245b65a98231802573f94973878a509ac0013b1f4deaf41",
+          "minAppVersion": "0.79.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.KafkaDriverPlugin",
+      "name": "Kafka Driver",
+      "version": "1.0.8",
+      "summary": "Apache Kafka topic and message browser over the native wire protocol",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/kafka",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Kafka"
+      ],
+      "iconName": "kafka-icon",
+      "isVerified": true,
+      "minAppVersion": "0.76.1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.6/KafkaDriverPlugin-arm64.zip",
+          "sha256": "1407d970fe22d3b3352790bb7d2937dc257c9321296e58c6ff5d027542cfb3af"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 33,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.6/KafkaDriverPlugin-x86_64.zip",
+          "sha256": "f62d131836ba9b3b2e8a14c19df146e5c18e64142c273a8c42b7d0e2d1d88337"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.7/KafkaDriverPlugin-arm64.zip",
+          "sha256": "ab332e8f7e958973c1f68aa69667909be21718d0aa213d09f950c063db1afc15",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.7/KafkaDriverPlugin-x86_64.zip",
+          "sha256": "eebe6f8ec65da4098f13a68a5fe6ee969b34bfa6d57e43c1104dd9150c2ffffd",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.8/KafkaDriverPlugin-arm64.zip",
+          "sha256": "9df5254453705fe31a9ae1497e93bba06c8c52785d77c93199f79a1f2edfe573",
+          "minAppVersion": "0.79.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.8/KafkaDriverPlugin-x86_64.zip",
+          "sha256": "6ac7b25554df0086602cd916389f23a2b60388923773dbdf24d9a9423f90fe68",
           "minAppVersion": "0.79.0"
         }
       ]
