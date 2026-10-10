@@ -1,109 +1,98 @@
-# TablePro Plugin Registry
+# TablePro plugin registry
 
-This repository hosts the plugin registry for [TablePro](https://github.com/TableProApp/TablePro). The `plugins.json` manifest is fetched by the app's Browse tab in Settings > Plugins.
+`plugins.json` is the catalog [TablePro](https://github.com/TableProApp/TablePro) reads for **Settings > Plugins > Browse**, and to install a driver when you pick a database type that has none yet. The app fetches it from `https://raw.githubusercontent.com/TableProApp/plugins/main/plugins.json`.
 
-## Registry Format
+## Where it comes from
 
-`plugins.json` contains a flat array of available plugins:
+CI writes `plugins.json`.
+
+- The source of truth is [`.github/plugin-registry.json`](https://github.com/TableProApp/TablePro/blob/main/.github/plugin-registry.json) in the TablePro repository: one entry per plugin, keyed by its tag slug.
+- Pushing a `plugin-<slug>-v<version>` tag there runs [`build-plugin.yml`](https://github.com/TableProApp/TablePro/blob/main/.github/workflows/build-plugin.yml). It builds both architectures, signs and notarizes them, publishes a GitHub release, and rewrites the plugin's entry here with [`update-registry.py`](https://github.com/TableProApp/TablePro/blob/main/.github/scripts/update-registry.py).
+- An entry's optional `metadata` block is the one part CI does not write. A maintainer edits it here by hand, and CI carries it forward on every release.
+
+To change a plugin, its summary or its icon, open a pull request against [TableProApp/TablePro](https://github.com/TableProApp/TablePro). A pull request here that edits any other field is closed, because the plugin's next release overwrites it.
+
+## Format
+
+Schema version 2. The field reference is [Plugin Registry](https://docs.tablepro.app/development/plugin-registry) in the docs. A real entry:
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "plugins": [
     {
-      "id": "com.example.cassandra-driver",
-      "name": "Cassandra Driver",
-      "version": "1.0.0",
-      "summary": "Apache Cassandra database support for TablePro",
-      "author": {
-        "name": "Example Corp",
-        "url": "https://github.com/example"
-      },
-      "homepage": "https://github.com/example/tablepro-cassandra",
+      "id": "com.TablePro.HanaDriver",
+      "name": "SAP HANA Driver",
+      "version": "1.0.1",
+      "summary": "SAP HANA SQL driver via SAP/go-hdb",
+      "author": { "name": "TablePro", "url": "https://tablepro.app" },
+      "homepage": "https://docs.tablepro.app/databases/sap-hana",
       "category": "database-driver",
-      "downloadURL": "https://github.com/example/tablepro-cassandra/releases/download/v1.0.0/CassandraDriver-arm64.zip",
-      "sha256": "abc123...",
+      "databaseTypeIds": ["SAP HANA"],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.77.0",
       "binaries": [
-        { "architecture": "arm64", "downloadURL": "https://...arm64.zip", "sha256": "abc123..." },
-        { "architecture": "x86_64", "downloadURL": "https://...x86_64.zip", "sha256": "def456..." }
-      ],
-      "minAppVersion": "0.16.0",
-      "minPluginKitVersion": 1,
-      "iconName": "cylinder.fill",
-      "isVerified": false
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-arm64.zip",
+          "sha256": "561e5dd963f45c530a50acd8d87de534aca79bcf82f59201f136f0740abf807f",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-x86_64.zip",
+          "sha256": "7a77e006f5eb73fd158c2e0dcef07ff090ed74b238a02641951318b9397c4ef9",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-arm64.zip",
+          "sha256": "977be0c454aebd5f13eb2ea305af2c73de97ef016ca0794c087591f1c70b0826",
+          "minAppVersion": "0.79.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-x86_64.zip",
+          "sha256": "e1155151680503afc245b65a98231802573f94973878a509ac0013b1f4deaf41",
+          "minAppVersion": "0.79.0"
+        }
+      ]
     }
   ]
 }
 ```
 
-## Fields
+- `binaries` has one entry per architecture and PluginKit version. The app installs the highest `pluginKitVersion` it supports for its architecture. CI keeps the three newest PluginKit versions of each plugin.
+- The entry's `minAppVersion` is the lowest app version any of its binaries needs. An older app refuses the install before it downloads anything. CI also records `minAppVersion` on each binary, but the app reads only the entry's.
+- `category` is one of `database-driver`, `export-format`, `import-format`, `theme`, `other`, and `architecture` is `arm64` or `x86_64`. An app that meets any other value rejects the whole file and keeps its cached copy, so a new value needs an app release first.
+- An app that supports a lower `schemaVersion` than the file declares also keeps its cached copy.
+- `isVerified` is `true` on every entry CI writes, and Browse shows it as a badge. The app grants no trust on the strength of it.
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `id` | string | yes | Bundle identifier (must match the `.tableplugin` bundle ID) |
-| `name` | string | yes | Display name |
-| `version` | string | yes | Semantic version |
-| `summary` | string | yes | One-line description |
-| `author` | object | yes | `name` (required) and `url` (optional) |
-| `homepage` | string | no | Project URL |
-| `category` | string | yes | One of: `database-driver`, `export-format`, `import-format`, `theme`, `other` |
-| `databaseTypeIds` | [string] | no | Maps to `DatabaseType.pluginTypeId` values for auto-install prompts |
-| `downloadURL` | string | no* | Direct link to the `.zip` archive containing the `.tableplugin` bundle |
-| `sha256` | string | no* | SHA-256 hex checksum of the zip file |
-| `binaries` | [object] | no | Per-architecture binaries with `architecture` (`arm64` or `x86_64`), `downloadURL`, and `sha256` |
-| `minAppVersion` | string | no | Minimum TablePro version required |
-| `minPluginKitVersion` | int | no | Minimum TableProPluginKit version required |
-| `iconName` | string | no | SF Symbol name (defaults to `puzzlepiece`) |
-| `isVerified` | bool | yes | `true` if reviewed and signed by the TablePro team |
+## Plugins from other developers
 
-\* Either `downloadURL`/`sha256` (flat fields) or `binaries` array is required. If `binaries` is present, the app picks the binary matching the current architecture. Flat fields serve as fallback for older app versions.
+TablePro installs plugins signed by other developers:
 
-## Multi-Architecture Support
+- The bundle must carry a valid Developer ID signature. Unsigned and ad-hoc signed bundles are refused.
+- The first time it meets a developer, TablePro names them and their Team ID and asks whether to trust them. This happens for a file install and for a registry install alike. Trust covers every plugin from that developer, and can be withdrawn in **Settings > Plugins**.
 
-Each plugin entry can include a `binaries` array with per-architecture downloads:
+Third-party plugins are not listed in this registry. Distribute yours one of two ways:
 
-```json
-"binaries": [
-  { "architecture": "arm64", "downloadURL": "https://...arm64.zip", "sha256": "abc123..." },
-  { "architecture": "x86_64", "downloadURL": "https://...x86_64.zip", "sha256": "def456..." }
-]
-```
+- Users drop the `.zip` or `.tableplugin` onto **Settings > Plugins > Installed**, or pick it with the **+** button there.
+- Host a manifest in this same format, and users point TablePro at it. It replaces this registry for them rather than adding to it:
 
-The app selects the binary matching the current Mac's architecture. The flat `downloadURL`/`sha256` fields should point to arm64 for backward compatibility with older app versions that don't support the `binaries` field.
+  ```bash
+  defaults write com.TablePro com.TablePro.customRegistryURL "https://example.com/plugins.json"
+  ```
 
-## Submitting a Theme
+[Plugins](https://docs.tablepro.app/features/plugins#plugins-from-other-developers) covers what users see. [Plugin Development](https://docs.tablepro.app/development/plugin-development#building-outside-this-repository) covers building a plugin outside the TablePro repository.
 
-Themes are open to anyone. A theme is JSON, carries no executable code, and is verified by its
-SHA-256 checksum rather than by a code signature, so nothing here needs the TablePro team.
+To have a plugin in this registry, contribute it to the TablePro repository. TablePro's CI then builds and signs it.
 
-1. Build the theme in the app: **Settings > Appearance**, then **Export**. A theme pack is several
-   `.json` files in one zip.
-2. Zip the `.json` files: `zip MyTheme.zip *.json`
-3. Compute the checksum: `shasum -a 256 MyTheme.zip`
-4. Host the zip on GitHub Releases, or any direct-download URL.
-5. Open a PR adding an entry to `plugins.json` with `"category": "theme"`, your `downloadURL` and
-   your `sha256`. Themes carry no native code, so they need no `binaries` array.
+## Security
 
-See [Theme Distribution](https://docs.tablepro.app/development/plugin-registry) for the schema.
-
-## Submitting a Driver or a Format Plugin
-
-**Third-party driver and format plugins cannot be installed today, and a PR adding one will not
-work yet.** The app verifies every `.tableplugin` bundle against TablePro's own Apple Team ID, so a
-bundle signed with your own Developer ID certificate is rejected at load time with "Bundle failed to
-load executable". That check is deliberate, because a driver holds database credentials and runs as
-code inside the app, but it also means the maintainers are the only ones who can currently publish
-one.
-
-Opening this up is planned: the app needs to accept a notarized Developer ID signature behind an
-explicit per-developer trust prompt, and TableProPluginKit needs to ship as a versioned XCFramework
-so a driver can live in its own repository.
-
-Until then, the useful thing you can do is open an issue on
-[TableProApp/TablePro](https://github.com/TableProApp/TablePro/issues) describing the database you
-want, or say in an existing request that you are willing to write the driver. Several are open
-already.
-
-## Verified Plugins
-
-Plugins with `"isVerified": true` have been reviewed and signed by the TablePro team. Only the TablePro maintainers can set this flag.
+Report a vulnerability in a plugin as described in [SECURITY.md](https://github.com/TableProApp/TablePro/blob/main/SECURITY.md).
