@@ -877,54 +877,6 @@
       ]
     },
     {
-      "id": "com.TablePro.HanaDriver",
-      "name": "SAP HANA Driver",
-      "version": "1.0.1",
-      "summary": "SAP HANA SQL driver via SAP/go-hdb",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/sap-hana",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "SAP HANA"
-      ],
-      "iconName": "cylinder",
-      "isVerified": true,
-      "minAppVersion": "0.77.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-arm64.zip",
-          "sha256": "561e5dd963f45c530a50acd8d87de534aca79bcf82f59201f136f0740abf807f",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-x86_64.zip",
-          "sha256": "7a77e006f5eb73fd158c2e0dcef07ff090ed74b238a02641951318b9397c4ef9",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 36,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-arm64.zip",
-          "sha256": "977be0c454aebd5f13eb2ea305af2c73de97ef016ca0794c087591f1c70b0826",
-          "minAppVersion": "0.79.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 36,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-x86_64.zip",
-          "sha256": "e1155151680503afc245b65a98231802573f94973878a509ac0013b1f4deaf41",
-          "minAppVersion": "0.79.0"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.KafkaDriverPlugin",
       "name": "Kafka Driver",
       "version": "1.0.8",
@@ -1403,6 +1355,68 @@
           "pluginKitVersion": 37,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.12/DamengDriver-x86_64.zip",
           "sha256": "6144760beef01e4ddb3065bf2bccc489e201f78abb7914a5fbb6ae1a6cab4176",
+          "minAppVersion": "0.80.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.HanaDriver",
+      "name": "SAP HANA Driver",
+      "version": "1.0.2",
+      "summary": "SAP HANA SQL driver via SAP/go-hdb",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/sap-hana",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "SAP HANA"
+      ],
+      "iconName": "cylinder",
+      "isVerified": true,
+      "minAppVersion": "0.77.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-arm64.zip",
+          "sha256": "561e5dd963f45c530a50acd8d87de534aca79bcf82f59201f136f0740abf807f",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.0/HanaDriver-x86_64.zip",
+          "sha256": "7a77e006f5eb73fd158c2e0dcef07ff090ed74b238a02641951318b9397c4ef9",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-arm64.zip",
+          "sha256": "977be0c454aebd5f13eb2ea305af2c73de97ef016ca0794c087591f1c70b0826",
+          "minAppVersion": "0.79.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 36,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.1/HanaDriver-x86_64.zip",
+          "sha256": "e1155151680503afc245b65a98231802573f94973878a509ac0013b1f4deaf41",
+          "minAppVersion": "0.79.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 37,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.2/HanaDriver-arm64.zip",
+          "sha256": "2bc88f3c6d6497a8c0b2be58a7329f161a25b23d8101a0e9f985688750ccab29",
+          "minAppVersion": "0.80.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 37,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.2/HanaDriver-x86_64.zip",
+          "sha256": "db575ce58fba3fc67227d88370922f4030cd769d081e30b1b588c64a00b3990b",
           "minAppVersion": "0.80.0"
         }
       ]
