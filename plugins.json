@@ -1191,66 +1191,6 @@
       ]
     },
     {
-      "id": "com.TablePro.SpannerDriverPlugin",
-      "name": "Spanner Driver",
-      "version": "1.0.4",
-      "summary": "Google Cloud Spanner driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/spanner",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Spanner"
-      ],
-      "iconName": "spanner-icon",
-      "isVerified": true,
-      "minAppVersion": "0.76.0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.2/SpannerDriverPlugin-arm64.zip",
-          "sha256": "35e1020da9a9858937de74481df0f9d7f7d624c828c2713a0b4d1a7ae8f134a3"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 33,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.2/SpannerDriverPlugin-x86_64.zip",
-          "sha256": "275f0000497a251615df3f07e8efe36dabb19334dabd711b8e7974b7c5182280"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.3/SpannerDriverPlugin-arm64.zip",
-          "sha256": "a8ebee450d6dee2d99339497e211c1d851fe757a44cb7307c0ba1f1983808e6c",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 34,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.3/SpannerDriverPlugin-x86_64.zip",
-          "sha256": "c26b9054baa89e0af50666e08745d64a9f32c39f35cbfa4bc873ba5ff018b35b",
-          "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 37,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.4/SpannerDriverPlugin-arm64.zip",
-          "sha256": "0dc082ac39fc5b15a80b94f6ce5f727c35803ac3039308a0e6000a1a29900cf8",
-          "minAppVersion": "0.80.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 37,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.4/SpannerDriverPlugin-x86_64.zip",
-          "sha256": "aec9a809807c6b9067a74a0efb73228e8161a4c8fa8db28e3fc816e1bc5cdbe1",
-          "minAppVersion": "0.80.0"
-        }
-      ]
-    },
-    {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
       "version": "1.2.36",
@@ -1500,6 +1440,68 @@
           "pluginKitVersion": 38,
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.45/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "a6d4799fb675306ee8fba8bc30ca7ec655e2b8bf8b576e5deaac9c28bb3a3f54",
+          "minAppVersion": "0.81.0"
+        }
+      ]
+    },
+    {
+      "id": "com.TablePro.SpannerDriverPlugin",
+      "name": "Spanner Driver",
+      "version": "1.0.5",
+      "summary": "Google Cloud Spanner driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/spanner",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Spanner"
+      ],
+      "iconName": "spanner-icon",
+      "isVerified": true,
+      "minAppVersion": "0.77.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.3/SpannerDriverPlugin-arm64.zip",
+          "sha256": "a8ebee450d6dee2d99339497e211c1d851fe757a44cb7307c0ba1f1983808e6c",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 34,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.3/SpannerDriverPlugin-x86_64.zip",
+          "sha256": "c26b9054baa89e0af50666e08745d64a9f32c39f35cbfa4bc873ba5ff018b35b",
+          "minAppVersion": "0.77.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 37,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.4/SpannerDriverPlugin-arm64.zip",
+          "sha256": "0dc082ac39fc5b15a80b94f6ce5f727c35803ac3039308a0e6000a1a29900cf8",
+          "minAppVersion": "0.80.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 37,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.4/SpannerDriverPlugin-x86_64.zip",
+          "sha256": "aec9a809807c6b9067a74a0efb73228e8161a4c8fa8db28e3fc816e1bc5cdbe1",
+          "minAppVersion": "0.80.0"
+        },
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.5/SpannerDriverPlugin-arm64.zip",
+          "sha256": "f580152be3d218cadc6d9032dbea8f757ba85effe1e3028cb36ffe1a3527be61",
+          "minAppVersion": "0.81.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.5/SpannerDriverPlugin-x86_64.zip",
+          "sha256": "3bfe4ebca5e0ce8301514b8092514857dd3aab64fa58dd89e4bcdc23e4e96572",
           "minAppVersion": "0.81.0"
         }
       ]
