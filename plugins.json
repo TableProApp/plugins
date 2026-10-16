@@ -1430,6 +1430,40 @@
           "minAppVersion": "0.80.0"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.BigtableDriverPlugin",
+      "name": "Bigtable Driver",
+      "version": "1.0.0",
+      "summary": "Google Cloud Bigtable driver over the REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/bigtable",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Bigtable"
+      ],
+      "iconName": "bigtable-icon",
+      "isVerified": true,
+      "minAppVersion": "0.81.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigtable-v1.0.0/BigtableDriverPlugin-arm64.zip",
+          "sha256": "527af13d1c8bc6575f0efdd0d6e0e0821fe007a73a3cacb3204003483a7394a6",
+          "minAppVersion": "0.81.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigtable-v1.0.0/BigtableDriverPlugin-x86_64.zip",
+          "sha256": "4b8392a328006ac678270b51e9b65c8ab29681167ea3b1230762284ed0171890",
+          "minAppVersion": "0.81.0"
+        }
+      ]
     }
   ]
 }
