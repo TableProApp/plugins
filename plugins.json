@@ -1464,6 +1464,41 @@
           "minAppVersion": "0.81.0"
         }
       ]
+    },
+    {
+      "id": "com.TablePro.FirebaseDriverPlugin",
+      "name": "Firebase Driver",
+      "version": "1.0.0",
+      "summary": "Cloud Firestore and Firebase Realtime Database driver over their REST APIs",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/firebase",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Firestore",
+        "Firebase Realtime Database"
+      ],
+      "iconName": "firebase-icon",
+      "isVerified": true,
+      "minAppVersion": "0.81.0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-firebase-v1.0.0/FirebaseDriverPlugin-arm64.zip",
+          "sha256": "19f0db35a0a759331ca263706fdad748d66c38d607e33694e2d9b303197ac666",
+          "minAppVersion": "0.81.0"
+        },
+        {
+          "architecture": "x86_64",
+          "pluginKitVersion": 38,
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-firebase-v1.0.0/FirebaseDriverPlugin-x86_64.zip",
+          "sha256": "cfa783e6a53e8d08eacb1ac4da39f5ef05845086c843e8ac9092a281e1621438",
+          "minAppVersion": "0.81.0"
+        }
+      ]
     }
   ]
 }
