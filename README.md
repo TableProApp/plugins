@@ -6,8 +6,8 @@ TablePro 0.82 and later read `https://updates.tablepro.app/plugins/v3.json`, whi
 
 ## The frozen file
 
-- Every entry's `version` is `0.82.0`, and its PluginKit 39 binaries are the plugin zips on the [v0.82.0 release](https://github.com/TableProApp/TablePro/releases/tag/v0.82.0). Each zip is universal, so the `arm64` and `x86_64` binaries name the same file.
-- The binaries for PluginKit 38 and below are unchanged. An app installs the highest `pluginKitVersion` it supports, so 0.81 (PluginKit 38) and 0.80 (PluginKit 37) keep installing them.
+- It holds the last builds published for PluginKit 38 and below. An app installs the highest `pluginKitVersion` it supports, so 0.81 (PluginKit 38) and 0.80 (PluginKit 37) keep installing them.
+- PluginKit 39 builds, from 0.82.0 on, are listed only in `v3.json`.
 
 ## Format
 

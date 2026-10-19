@@ -4,7 +4,7 @@
     {
       "id": "com.TablePro.SurrealDBDriverPlugin",
       "name": "SurrealDB Driver",
-      "version": "0.82.0",
+      "version": "1.0.9",
       "summary": "SurrealDB driver over the HTTP RPC protocol with SurrealQL",
       "author": {
         "name": "TablePro",
@@ -56,27 +56,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-surrealdb-v1.0.9/SurrealDBDriverPlugin-x86_64.zip",
           "sha256": "8da38c611d0004d894c59a9d16ba1607c7e44806bc5df9f84f0fc426c404d896",
           "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SurrealDBDriverPlugin-0.82.0.zip",
-          "sha256": "091d74dfd7a65eb53edd28645871d2dbbdb2ddd76878d97be9d2bda3020b50bc",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SurrealDBDriverPlugin-0.82.0.zip",
-          "sha256": "091d74dfd7a65eb53edd28645871d2dbbdb2ddd76878d97be9d2bda3020b50bc",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.CloudflareR2SQLDriverPlugin",
       "name": "Cloudflare R2 SQL Driver",
-      "version": "0.82.0",
+      "version": "1.0.2",
       "summary": "Read-only Cloudflare R2 SQL driver for Iceberg tables in R2 Data Catalog via REST API",
       "author": {
         "name": "TablePro",
@@ -128,27 +114,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-r2-sql-v1.0.2/CloudflareR2SQLDriverPlugin-x86_64.zip",
           "sha256": "14ed92c0b3855bf54f5d057641150c48bebb38ba279209111ab11eb51a94c670",
           "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CloudflareR2SQLDriverPlugin-0.82.0.zip",
-          "sha256": "444ea12e74791d19b04e8e95d8b0153f2a92fd69eb49b31822cd4be9c7876f79",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CloudflareR2SQLDriverPlugin-0.82.0.zip",
-          "sha256": "444ea12e74791d19b04e8e95d8b0153f2a92fd69eb49b31822cd4be9c7876f79",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.ParquetExportPlugin",
       "name": "Parquet Export",
-      "version": "0.82.0",
+      "version": "1.0.3",
       "summary": "Export data to Apache Parquet",
       "author": {
         "name": "TablePro",
@@ -198,27 +170,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-parquet-v1.0.3/ParquetExport-x86_64.zip",
           "sha256": "a6b66247e2291d8216ebca397c8ef2d4036a3d842e1b403062fe207f4ad6d659",
           "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/ParquetExport-0.82.0.zip",
-          "sha256": "70cf086d7481b2af0ee508f2fe25a2eeece1d7e8f11ed221834ed7c03ed6e271",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/ParquetExport-0.82.0.zip",
-          "sha256": "70cf086d7481b2af0ee508f2fe25a2eeece1d7e8f11ed221834ed7c03ed6e271",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.EtcdDriverPlugin",
       "name": "etcd Driver",
-      "version": "0.82.0",
+      "version": "1.0.40",
       "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
       "author": {
         "name": "TablePro",
@@ -270,27 +228,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.40/EtcdDriverPlugin-x86_64.zip",
           "sha256": "fcb1d6df7b9a40efde7fd3b77d7f06d652c273b2831d870ecde845f4754c1f95",
           "minAppVersion": "0.77.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/EtcdDriverPlugin-0.82.0.zip",
-          "sha256": "45036afe3b1dde843c564c08b2186cc75460d5ddc4a77c54dab3ceaeeacc87fd",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/EtcdDriverPlugin-0.82.0.zip",
-          "sha256": "45036afe3b1dde843c564c08b2186cc75460d5ddc4a77c54dab3ceaeeacc87fd",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.BeancountDriver",
       "name": "Beancount Driver",
-      "version": "0.82.0",
+      "version": "1.0.11",
       "summary": "Read-only Beancount ledger driver using user-provided rledger or Python Beancount",
       "author": {
         "name": "TablePro",
@@ -344,27 +288,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-beancount-v1.0.11/BeancountDriver-x86_64.zip",
           "sha256": "95185b9aea591ef7fe9f9148d32066e0541480c2e68750019d5f4860d7f69199",
           "minAppVersion": "0.78.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BeancountDriver-0.82.0.zip",
-          "sha256": "ac4cc5a1b233c2fc89f72793dc00709a7b870fc06c2f5cd270fc182d58503a28",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BeancountDriver-0.82.0.zip",
-          "sha256": "ac4cc5a1b233c2fc89f72793dc00709a7b870fc06c2f5cd270fc182d58503a28",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.KafkaDriverPlugin",
       "name": "Kafka Driver",
-      "version": "0.82.0",
+      "version": "1.0.8",
       "summary": "Apache Kafka topic and message browser over the native wire protocol",
       "author": {
         "name": "TablePro",
@@ -418,27 +348,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.8/KafkaDriverPlugin-x86_64.zip",
           "sha256": "6ac7b25554df0086602cd916389f23a2b60388923773dbdf24d9a9423f90fe68",
           "minAppVersion": "0.79.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/KafkaDriverPlugin-0.82.0.zip",
-          "sha256": "3f32b0f56d4197d4cf5446520edd1befec068b43eb512acefe20e614ec5b5aaa",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/KafkaDriverPlugin-0.82.0.zip",
-          "sha256": "3f32b0f56d4197d4cf5446520edd1befec068b43eb512acefe20e614ec5b5aaa",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.WeaviateDriverPlugin",
       "name": "Weaviate Driver",
-      "version": "0.82.0",
+      "version": "1.0.3",
       "summary": "Weaviate driver over the REST API with a GraphQL console",
       "author": {
         "name": "TablePro",
@@ -492,27 +408,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-weaviate-v1.0.3/WeaviateDriverPlugin-x86_64.zip",
           "sha256": "815f5f9d91bc9ab1c5108177ce1184668203aa55a2c58a04781717385fddbc4c",
           "minAppVersion": "0.79.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/WeaviateDriverPlugin-0.82.0.zip",
-          "sha256": "80192af6e3da07eeec97425b1de547550683f5679a58626a392e9e8764f82429",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/WeaviateDriverPlugin-0.82.0.zip",
-          "sha256": "80192af6e3da07eeec97425b1de547550683f5679a58626a392e9e8764f82429",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.BigQueryDriverPlugin",
       "name": "BigQuery Driver",
-      "version": "0.82.0",
+      "version": "1.0.35",
       "summary": "Google BigQuery analytics database driver via REST API",
       "author": {
         "name": "TablePro",
@@ -566,27 +468,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.35/BigQueryDriverPlugin-x86_64.zip",
           "sha256": "07323ea4cda4fd58b4b6c6bd1ebda11551052422a9d14490eb36b1f2b26b7c28",
           "minAppVersion": "0.80.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BigQueryDriverPlugin-0.82.0.zip",
-          "sha256": "ffb593e6233e3a9cafa90e9dec048074a7ff006b129869fc64a183490eac42c0",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BigQueryDriverPlugin-0.82.0.zip",
-          "sha256": "ffb593e6233e3a9cafa90e9dec048074a7ff006b129869fc64a183490eac42c0",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.SnowflakeDriverPlugin",
       "name": "Snowflake Driver",
-      "version": "0.82.0",
+      "version": "1.0.14",
       "summary": "Snowflake cloud data warehouse driver via the connector REST protocol",
       "author": {
         "name": "TablePro",
@@ -640,27 +528,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.14/SnowflakeDriverPlugin-x86_64.zip",
           "sha256": "152af2b15a544cf9e035415191d00fdfc9a585b3ea51389196a92a1942b6129c",
           "minAppVersion": "0.80.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SnowflakeDriverPlugin-0.82.0.zip",
-          "sha256": "796840a8b03a1cf51364589e4a334594747e029a23163b6fc4b68aee434ed1be",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SnowflakeDriverPlugin-0.82.0.zip",
-          "sha256": "796840a8b03a1cf51364589e4a334594747e029a23163b6fc4b68aee434ed1be",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.BigtableDriverPlugin",
       "name": "Bigtable Driver",
-      "version": "0.82.0",
+      "version": "1.0.0",
       "summary": "Google Cloud Bigtable driver over the REST API",
       "author": {
         "name": "TablePro",
@@ -688,27 +562,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigtable-v1.0.0/BigtableDriverPlugin-x86_64.zip",
           "sha256": "4b8392a328006ac678270b51e9b65c8ab29681167ea3b1230762284ed0171890",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BigtableDriverPlugin-0.82.0.zip",
-          "sha256": "2a314038ce89165c3fc8681633114cece2a1d6413ee929f138d64c55b1c6ec06",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/BigtableDriverPlugin-0.82.0.zip",
-          "sha256": "2a314038ce89165c3fc8681633114cece2a1d6413ee929f138d64c55b1c6ec06",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.FirebaseDriverPlugin",
       "name": "Firebase Driver",
-      "version": "0.82.0",
+      "version": "1.0.0",
       "summary": "Cloud Firestore and Firebase Realtime Database driver over their REST APIs",
       "author": {
         "name": "TablePro",
@@ -737,27 +597,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-firebase-v1.0.0/FirebaseDriverPlugin-x86_64.zip",
           "sha256": "cfa783e6a53e8d08eacb1ac4da39f5ef05845086c843e8ac9092a281e1621438",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/FirebaseDriverPlugin-0.82.0.zip",
-          "sha256": "947fa827de8a04b0b9eb8be97913c81468f1e922bed19f4087571c939e7e3c56",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/FirebaseDriverPlugin-0.82.0.zip",
-          "sha256": "947fa827de8a04b0b9eb8be97913c81468f1e922bed19f4087571c939e7e3c56",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
-      "version": "0.82.0",
+      "version": "1.0.43",
       "summary": "Apache Cassandra and ScyllaDB driver via DataStax C driver",
       "author": {
         "name": "TablePro",
@@ -814,27 +660,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.43/CassandraDriver-x86_64.zip",
           "sha256": "f679fda95cdd2a56df5e586b6f21d3429a03b7ed520494dd48376c257ca42f60",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CassandraDriver-0.82.0.zip",
-          "sha256": "4dd3ca4830336ae04c95a3c213dc730fca2dd3f5fbdee6830536d256096f2d55",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CassandraDriver-0.82.0.zip",
-          "sha256": "4dd3ca4830336ae04c95a3c213dc730fca2dd3f5fbdee6830536d256096f2d55",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.CloudflareD1DriverPlugin",
       "name": "Cloudflare D1 Driver",
-      "version": "0.82.0",
+      "version": "1.0.45",
       "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
       "author": {
         "name": "TablePro",
@@ -888,27 +720,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.45/CloudflareD1DriverPlugin-x86_64.zip",
           "sha256": "a6d4799fb675306ee8fba8bc30ca7ec655e2b8bf8b576e5deaac9c28bb3a3f54",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CloudflareD1DriverPlugin-0.82.0.zip",
-          "sha256": "5cbaa1292c0a9ac50fab7e3ddc601d0a6a072e5dcefce648d6f9fe49ba147022",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/CloudflareD1DriverPlugin-0.82.0.zip",
-          "sha256": "5cbaa1292c0a9ac50fab7e3ddc601d0a6a072e5dcefce648d6f9fe49ba147022",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.SpannerDriverPlugin",
       "name": "Spanner Driver",
-      "version": "0.82.0",
+      "version": "1.0.5",
       "summary": "Google Cloud Spanner driver via REST API",
       "author": {
         "name": "TablePro",
@@ -964,27 +782,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-spanner-v1.0.5/SpannerDriverPlugin-x86_64.zip",
           "sha256": "3bfe4ebca5e0ce8301514b8092514857dd3aab64fa58dd89e4bcdc23e4e96572",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SpannerDriverPlugin-0.82.0.zip",
-          "sha256": "fb00208f307d64e6d355afcfe30da8c5fc5a493f6eefda6b58dc05a5e7a4bd0c",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/SpannerDriverPlugin-0.82.0.zip",
-          "sha256": "fb00208f307d64e6d355afcfe30da8c5fc5a493f6eefda6b58dc05a5e7a4bd0c",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.ElasticsearchDriverPlugin",
       "name": "Elasticsearch Driver",
-      "version": "0.82.0",
+      "version": "1.0.13",
       "summary": "Elasticsearch driver via the REST API with a Query DSL console",
       "author": {
         "name": "TablePro",
@@ -1040,27 +844,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-elasticsearch-v1.0.13/ElasticsearchDriverPlugin-x86_64.zip",
           "sha256": "ff5e0be0c5762824dbfa7612204b8ceaee1bf01703494a144bfb81bafce51316",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/ElasticsearchDriverPlugin-0.82.0.zip",
-          "sha256": "9fa5ccede0a363dd254b07050446aee7382fffadccf5d2f269f453009944d2df",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/ElasticsearchDriverPlugin-0.82.0.zip",
-          "sha256": "9fa5ccede0a363dd254b07050446aee7382fffadccf5d2f269f453009944d2df",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.DamengDriver",
       "name": "Dameng Driver",
-      "version": "0.82.0",
+      "version": "1.0.13",
       "summary": "Dameng DM8 database driver via a native wire client",
       "author": {
         "name": "TablePro",
@@ -1116,27 +906,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.13/DamengDriver-x86_64.zip",
           "sha256": "6018826b9fd69d6ae6057097d60877547e7e695680b3a816b8f116986b836ab7",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DamengDriver-0.82.0.zip",
-          "sha256": "cae826a4308a189c681500a30ba7bc8ddddb164cfebff4d8d5843e42a4e91310",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DamengDriver-0.82.0.zip",
-          "sha256": "cae826a4308a189c681500a30ba7bc8ddddb164cfebff4d8d5843e42a4e91310",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.LibSQLDriverPlugin",
       "name": "libSQL / Turso Driver",
-      "version": "0.82.0",
+      "version": "1.0.33",
       "summary": "libSQL and Turso database support via Hrana HTTP protocol",
       "author": {
         "name": "TablePro",
@@ -1191,27 +967,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.33/LibSQLDriverPlugin-x86_64.zip",
           "sha256": "02c2b9b17e8a415667bd9b67505f2baac60dded238a94e06d9a20ea731a95d2d",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/LibSQLDriverPlugin-0.82.0.zip",
-          "sha256": "2abf4017cc94a2778cb82d204102c5fd0b5a071b431a7437ef063744d6b3702a",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/LibSQLDriverPlugin-0.82.0.zip",
-          "sha256": "2abf4017cc94a2778cb82d204102c5fd0b5a071b431a7437ef063744d6b3702a",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.TrinoDriverPlugin",
       "name": "Trino Driver",
-      "version": "0.82.0",
+      "version": "1.0.15",
       "summary": "Trino distributed SQL engine driver via the REST client protocol",
       "author": {
         "name": "TablePro",
@@ -1267,27 +1029,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.15/TrinoDriverPlugin-x86_64.zip",
           "sha256": "4458fa7f180fab40c8902e610d43faa3f71a5dcd3c7f6717ead6e179e77c063e",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TrinoDriverPlugin-0.82.0.zip",
-          "sha256": "48e478b90e4ef114a3162e53c16ba1f2efcbb9fed503a4c890783d1245cc2aa4",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TrinoDriverPlugin-0.82.0.zip",
-          "sha256": "48e478b90e4ef114a3162e53c16ba1f2efcbb9fed503a4c890783d1245cc2aa4",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.TypesenseDriverPlugin",
       "name": "Typesense Driver",
-      "version": "0.82.0",
+      "version": "1.0.4",
       "summary": "Typesense driver over the REST API with a request console",
       "author": {
         "name": "TablePro",
@@ -1343,27 +1091,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-typesense-v1.0.4/TypesenseDriverPlugin-x86_64.zip",
           "sha256": "a331597b0cae85b799db309f36a0ada7dfeaa8b15c214abe810596ce15bcf662",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TypesenseDriverPlugin-0.82.0.zip",
-          "sha256": "194ca1eb1c9bbc5b158c0c7e1064cceab1666142126b79d02fdb6ac5dfe9d3b2",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TypesenseDriverPlugin-0.82.0.zip",
-          "sha256": "194ca1eb1c9bbc5b158c0c7e1064cceab1666142126b79d02fdb6ac5dfe9d3b2",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.OracleDriver",
       "name": "Oracle Driver",
-      "version": "0.82.0",
+      "version": "1.2.37",
       "summary": "Oracle Database 12c+ driver via OracleNIO",
       "author": {
         "name": "TablePro",
@@ -1419,27 +1153,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.37/OracleDriver-x86_64.zip",
           "sha256": "6e55196ca494e972b15079a288379baf4dd77c1b1a99c6fc1edd2d665a81c1e0",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/OracleDriver-0.82.0.zip",
-          "sha256": "7468c95360155f7e1fba64e04f30148f78c825cf2c927fa3569789543fe4a71c",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/OracleDriver-0.82.0.zip",
-          "sha256": "7468c95360155f7e1fba64e04f30148f78c825cf2c927fa3569789543fe4a71c",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.TeradataDriver",
       "name": "Teradata Driver",
-      "version": "0.82.0",
+      "version": "1.0.14",
       "summary": "Teradata Vantage driver via a native Swift TD2 client",
       "author": {
         "name": "TablePro",
@@ -1495,27 +1215,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.14/TeradataDriver-x86_64.zip",
           "sha256": "387d939c6e66a9ba0cc65c22df2e14d33980cd4073da40b2b606b75269c53407",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TeradataDriver-0.82.0.zip",
-          "sha256": "a729b5f66cb8791db9dd0a9e6b92907e51f5d32c16a045420d301e259ddc5131",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/TeradataDriver-0.82.0.zip",
-          "sha256": "a729b5f66cb8791db9dd0a9e6b92907e51f5d32c16a045420d301e259ddc5131",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.MSSQLDriver",
       "name": "MSSQL Driver",
-      "version": "0.82.0",
+      "version": "1.0.50",
       "summary": "Microsoft SQL Server driver via FreeTDS",
       "author": {
         "name": "TablePro",
@@ -1571,27 +1277,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.50/MSSQLDriver-x86_64.zip",
           "sha256": "ccc1546ca3947d452da5c30ca7edd3ed6d4ff6e42ceec0481ffad954671c5a37",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/MSSQLDriver-0.82.0.zip",
-          "sha256": "921144acce8d939f303f16d8a34fc65bc8086198554eee7147fc54d25d1dbaf9",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/MSSQLDriver-0.82.0.zip",
-          "sha256": "921144acce8d939f303f16d8a34fc65bc8086198554eee7147fc54d25d1dbaf9",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.DynamoDBDriverPlugin",
       "name": "DynamoDB Driver",
-      "version": "0.82.0",
+      "version": "1.0.33",
       "summary": "Amazon DynamoDB: index-aware browsing, typed editing, PartiQL, the DynamoDB API and table management",
       "author": {
         "name": "TablePro",
@@ -1645,27 +1337,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.33/DynamoDBDriverPlugin-x86_64.zip",
           "sha256": "856986c573315f0d98daf4a37deaaf54d3cc47d3e5ba41c020545c27c1259b12",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DynamoDBDriverPlugin-0.82.0.zip",
-          "sha256": "4d3bd49a3f680fe3ec718df5ab98320814f55c88bf060d497a4a555fdee37b46",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DynamoDBDriverPlugin-0.82.0.zip",
-          "sha256": "4d3bd49a3f680fe3ec718df5ab98320814f55c88bf060d497a4a555fdee37b46",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.DuckDBDriver",
       "name": "DuckDB Driver",
-      "version": "0.82.0",
+      "version": "1.0.45",
       "summary": "DuckDB analytical database driver",
       "author": {
         "name": "TablePro",
@@ -1721,27 +1399,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.45/DuckDBDriver-x86_64.zip",
           "sha256": "2d5bffa7299f7cbf4786dafeb650a7c1df61a3b46c473e2202b127de13deda78",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DuckDBDriver-0.82.0.zip",
-          "sha256": "6c671b4c2c054d21c9f98c5663ff3fe8c7c1ab6c22b2ca6ae9fc32801be9606c",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/DuckDBDriver-0.82.0.zip",
-          "sha256": "6c671b4c2c054d21c9f98c5663ff3fe8c7c1ab6c22b2ca6ae9fc32801be9606c",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.HanaDriver",
       "name": "SAP HANA Driver",
-      "version": "0.82.0",
+      "version": "1.0.3",
       "summary": "SAP HANA SQL driver via SAP/go-hdb",
       "author": {
         "name": "TablePro",
@@ -1797,27 +1461,13 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-hana-v1.0.3/HanaDriver-x86_64.zip",
           "sha256": "385ff529b2a9ecd0d45ec6f287ff6695596e09c5bdf09fd745e7ba377632d89d",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/HanaDriver-0.82.0.zip",
-          "sha256": "a2260f160e4abe4b4aca505e451f616893a836d70cc3963c34f776c2701b28fd",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/HanaDriver-0.82.0.zip",
-          "sha256": "a2260f160e4abe4b4aca505e451f616893a836d70cc3963c34f776c2701b28fd",
-          "minAppVersion": "0.82.0"
         }
       ]
     },
     {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
-      "version": "0.82.0",
+      "version": "1.0.50",
       "summary": "MongoDB document database driver via libmongoc",
       "author": {
         "name": "TablePro",
@@ -1873,20 +1523,6 @@
           "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.50/MongoDBDriver-x86_64.zip",
           "sha256": "693ef53307ce41ff63b6e9dbc61b982beac61b53b3de41753e79ac26822d45d8",
           "minAppVersion": "0.81.0"
-        },
-        {
-          "architecture": "arm64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/MongoDBDriver-0.82.0.zip",
-          "sha256": "52fca34e3de99624e8046e17aa21cbca198725f0a8365a97c3816a5d53a5c28e",
-          "minAppVersion": "0.82.0"
-        },
-        {
-          "architecture": "x86_64",
-          "pluginKitVersion": 39,
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/v0.82.0/MongoDBDriver-0.82.0.zip",
-          "sha256": "52fca34e3de99624e8046e17aa21cbca198725f0a8365a97c3816a5d53a5c28e",
-          "minAppVersion": "0.82.0"
         }
       ]
     }
